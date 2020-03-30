@@ -1,18 +1,7 @@
 .. _help:
 
-BAT Introduction
-*****************
-
-BAT stands for Booking and Availability Management Tools.
-
-It is a set of tools created by the `Roomify <https://roomify.us>`_ team to provide a foundation through which a wide range of availability management, reservation and booking use cases can be addressed. BAT will work with a variety of CMSs and PHP Frameworks, the first of which is Drupal.
-
-BAT builds on our experience with Rooms, which handles the problem of bookings specifically for the accommodation for rental use case (vacation rentals, hotels, B&B, etc). With BAT we took everything we learned and built a system that will let you create an application like Rooms for: table booking at a restaurant, conference room bookings, sharing power tools with friends, or other miscellaneous booking activities.
-
-BAT on its own is a booking and availability management framework - much in the same way that Drupal is a content management framework or Drupal Commerce is an e-commerce framework. Our aim is to build specific solutions on top of BAT to tackle specific application domains.
-
-Basic Concepts
-==============
+Help Menu
+=========
 
 
 .. image:: images/bat-high-level.png

@@ -14,7 +14,7 @@ Repairtagger is your ticket tracking, customer database, and notification system
 
 .. toctree::
    :maxdepth: 2
-   :caption: Repairtagger - the life and times of a ticket
+   :caption: The life and times of a ticket
 
    Introduction<ticketlife/index.rst>
    Intake - Creating a ticket  <ticketlife/intake.rst>
