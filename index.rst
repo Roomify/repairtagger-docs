@@ -40,7 +40,7 @@ Repairtagger is your ticket tracking, customer database, and notification system
 
 .. toctree::
    :maxdepth: 2
-   :caption: Scan tag
+   :caption: Scanning a tag
 
    Introduction<scan/index.rst>
    Text Recognition <scan/ocr.rst>

@@ -48,9 +48,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Roomify'
-copyright = u'2016, roomify.us'
-author = u'roomify.us'
+project = u'Repairtagger Docs'
+copyright = u'2016, about.repairtagger.com'
+author = u'about.repairtagger.com'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
