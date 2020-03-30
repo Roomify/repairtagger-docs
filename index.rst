@@ -1,7 +1,5 @@
 .. Repairtagger documentation master file, created by
-   cecily on Sat March 28 2020 whilst under quarantine due to COVID-19
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+   cecily on Sat March 28 2020 whilst under quarantine due to COVID-19.
 
 Welcome to Repairtagger documentation!
 ==========================================
@@ -9,11 +7,16 @@ Repairtagger Documentation Version 2.0
 
 Need Help? email us at support@repairtagger.com
 
+Introduction
+------------
+
+Repairtagger is your ticket tracking, customer database, and notification system. Keep track of your customers and their repair history, using any tags you like. With texts and email templates, notifying your customers is easier than ever.
+
 .. toctree::
    :maxdepth: 2
-   :caption: Repairtagger - the life of a ticket
+   :caption: Repairtagger - the life and times of a ticket
 
-   Introduction<intake/index.rst>
+   Introduction<ticketlife/index.rst>
    Intake - Creating a ticket  <ticketlife/intake.rst>
    Working on a ticket  <ticketlife/dothework.rst>
    Notifying the customer  <ticketlife/notifications.rst>
@@ -33,6 +36,7 @@ Need Help? email us at support@repairtagger.com
    Ticket List <tickets/ticketlist.rst>
    View Ticket <tickets/viewticket.rst>
    Edit Ticket <tickets/editticket.rst>
+   Delete Ticket <tickets/deleteticket.rst>
 
 .. toctree::
    :maxdepth: 2
@@ -47,7 +51,7 @@ Need Help? email us at support@repairtagger.com
    :maxdepth: 2
    :caption: Customers
 
-   Introduction<customer/index.rst>
+   Introduction<customers/index.rst>
    Customer List <customers/customerlist.rst>
    Customer Status Page <customers/customerstatus.rst>
    Edit Customer <customers/editcustomer.rst>
@@ -59,7 +63,7 @@ Need Help? email us at support@repairtagger.com
    Introduction<admin/index.rst>
    Price List <admin/pricelist.rst>
    Due Dates <admin/duedates.rst>
-   Notifications <admin/notifications.rst>
+   Notifications <admin/notificationtemplates.rst>
    Help <admin/help.rst>
    Business Information <admin/bizinformation.rst>
    Account <admin/account.rst>

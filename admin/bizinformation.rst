@@ -1,4 +1,4 @@
-.. _BAT:
+.. _bizinformation:
 
 BAT
 ===
@@ -12,4 +12,3 @@ This documentation refers to the `BAT PHP library <a href="https://github.com/ro
 
    Introduction to BAT <introduction.rst>
    BAT for Drupal <drupal/index.rst>
-

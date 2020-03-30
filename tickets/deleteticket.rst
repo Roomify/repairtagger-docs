@@ -1,4 +1,4 @@
-.. _editticket:
+.. _deleteticket:
 
 Deleting a Ticket
 *****************

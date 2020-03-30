@@ -1,4 +1,4 @@
-.. _bat_introduction:
+.. _pickup:
 
 BAT Introduction
 *****************
@@ -60,4 +60,3 @@ Store
 Store records the value of a unit for a given moment in time. The Store goes down to minute granularity which means our units can have a different value for each minute in time. The Store data structure is designed to quickly allows us to determine the value of a unit for a given time range and quickly change it.
 
 Currently we support a SQLite store (used in our tests) and a DrupalStore. Additional Store support is on its way.
-
