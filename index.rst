@@ -1,6 +1,10 @@
 .. Repairtagger documentation master file, created by
    cecily on Sat March 28 2020 whilst under quarantine due to COVID-19.
 
+.. Helpful hints:
+
+.. Type backquote (on same key as tilde) to link other rst docs)
+
 Welcome to Repairtagger documentation!
 ==========================================
 Repairtagger Documentation Version 2.0
@@ -10,17 +14,109 @@ Need Help? email us at support@repairtagger.com
 Introduction
 ------------
 
-Repairtagger is your ticket tracking, customer database, and notification system. Keep track of your customers and their repair history, using any tags you like. With texts and email templates, notifying your customers is easier than ever.
+Repairtagger is your ticket tracking, customer database, and notification
+system. Keep track of your customers and their repair history, using any tags
+you like. With texts and email templates, notifying your customers is easier
+than ever.
+
+Terminology
+***********
+
+Tag
+___
+
+A physical tag that is attached to the item to be repaired. This tag must have
+a number, either embedded in a QR code, or written on the tag.
+
+See: Scanning_ for a description of tag options.
+
+.. _Scanning: :ref:`scan`
+
+Ticket
+______
+
+A record in Repairtagger that stores the information about an item that needs
+repair. A ticket will have a reference to the customer it is for, the repair(s)
+to be done,  the amount charged for each repair, how much the customer paid on
+dropoff, and optionally, notes and photos.
+
+See: `Creating a ticket`_ for more details.
+
+.. _Creating a ticket: :ref:`scantag`
+
+Customer
+________
+
+A record in Repairtagger that stores a customers name and optionally a mobile
+phone number, landline number, email, notes, and photos.
+
+See: `Customer List`_ for more details.
+
+.. _Customer List: :ref:`customerlist`
+
+Customer List
+_____________
+
+A searchable list of your Customers.
+
+See: Customers_ for more details.
+
+.. _Customers: :ref:`customers`
+
+Ticket List
+___________
+
+A list of your tickets, divided into the following categories:
+
+  **Active**
+
+    Repairs not yet done and/or the customer has not been notified.
+
+  **Complete**
+
+    Customer has been notified and the item is waiting for pickup.
+
+  **Archived**
+
+    Item is complete, the customer has picked it up, and the ticket has been
+    archived.
+
+See: `Ticket List`_ for more details.
+
+.. _Ticket List: :ref:`ticketlist`
+
+
+Reports
+_______
+
+A simple overview of your ticket numbers for the month.
+
+See: Reports_ for more details.
+
+.. _Reports: :ref:`reports`
+
+Price List
+__________
+
+Your price list is divided into categories, which each have their own repair
+types. A repair type is given a name, a category, a price, and if that repair
+type has a range, you can specifiy the max price.
+
+See: `Managing your price list`_ for more details.
+
+.. _Managing your price list: :ref:`pricelist`
+
 
 .. toctree::
    :maxdepth: 2
    :caption: The life and times of a ticket
 
    Introduction<ticketlife/index.rst>
-   Intake - Creating a ticket  <ticketlife/intake.rst>
-   Working on a ticket  <ticketlife/dothework.rst>
-   Notifying the customer  <ticketlife/notifications.rst>
-   Pick up  <ticketlife/pickup.rst>
+   Scan a tag <ticketlife/scantag.rst>
+   Fill in ticket information  <ticketlife/intake.rst>
+   Do the work  <ticketlife/dothework.rst>
+   Notify the customer  <ticketlife/notifications.rst>
+   Pickup and Archival <ticketlife/pickup.rst>
 
 .. toctree::
    :maxdepth: 2
