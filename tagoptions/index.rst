@@ -1,7 +1,7 @@
 .. _tagoptions:
 
 Physical Tag Options
-=============
+====================
 
 Tap on the ‘Scan tag’ icon in the footer
 
