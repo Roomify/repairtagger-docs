@@ -19,6 +19,11 @@ system. Keep track of your customers and their repair history, using any tags
 you like. With texts and email templates, notifying your customers is easier
 than ever.
 
+If you are new to Repairtagger, start with `the life and times of a
+Repairtagger ticket`_ to get an overall view of how to use the app.
+
+.. _the life and times of a Repairtagger ticket: :ref: `ticketlife`
+
 Terminology
 ***********
 
