@@ -8,22 +8,12 @@ from the customer dropping off their item in your shop, to picking up the item,
 and the ticket being archived.
 
 
-Step 1. `Scan a tag`_
+:doc:`scantag`
 
-.. _Scan a tag: :ref:`scantag`
+:doc:`intake`
 
-Step 2. `Fill in ticket Information`_
+:doc:`dothework`
 
-.. _Fill in ticket Information: :ref:`intake`
+:doc:`notifications`
 
-Step 3. `Do the Work`_
-
-.. _Do the Work: :ref:`dothework`
-
-Step 4. `Notify the customer`_
-
-.. _Notify the customer: :ref:`notifications`
-
-Step 5. `Pickup and Archival`_
-
-.. _Pickup and Archival: :ref:`pickup`
+:doc:`pickup`

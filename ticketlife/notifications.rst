@@ -1,7 +1,7 @@
 .. _notifications:
 
-BAT Introduction
-*****************
+Step 4: Notifications
+*********************
 
 BAT stands for Booking and Availability Management Tools.
 

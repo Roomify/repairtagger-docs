@@ -1,7 +1,7 @@
 .. _dothework:
 
-BAT Introduction
-*****************
+Step 3: Do the Work
+*******************
 
 BAT stands for Booking and Availability Management Tools.
 

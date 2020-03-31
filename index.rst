@@ -119,11 +119,11 @@ See: `Managing your price list`_ for more details.
    :caption: Getting Started
 
    The life and times of a ticket<ticketlife/index.rst>
-   Scan a tag <ticketlife/scantag.rst>
-   Fill in ticket information  <ticketlife/intake.rst>
-   Do the work  <ticketlife/dothework.rst>
-   Notify the customer  <ticketlife/notifications.rst>
-   Pickup and Archival <ticketlife/pickup.rst>
+   Step 1: Scan a tag <ticketlife/scantag.rst>
+   Step 2: Fill in ticket information  <ticketlife/intake.rst>
+   Step 3: Do the work  <ticketlife/dothework.rst>
+   Step 4: Notify the customer  <ticketlife/notifications.rst>
+   Step 5: Pickup and Archival <ticketlife/pickup.rst>
 
 .. toctree::
    :maxdepth: 2

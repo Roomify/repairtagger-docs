@@ -1,7 +1,7 @@
 .. _pickup:
 
-BAT Introduction
-*****************
+Step 5: Pick up and Archival
+****************************
 
 BAT stands for Booking and Availability Management Tools.
 
