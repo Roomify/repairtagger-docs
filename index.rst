@@ -20,7 +20,7 @@ you like. With texts and email templates, notifying your customers is easier
 than ever.
 
 If you are new to Repairtagger, start with `the life and times of a
-Repairtagger ticket`_ to get an overall view of how to use the app.
+Repairtagger ticket`_ to get a step by step explanation of how to use the app.
 
 .. _the life and times of a Repairtagger ticket: :ref: `ticketlife`
 
@@ -33,17 +33,19 @@ ___
 A physical tag that is attached to the item to be repaired. This tag must have
 a number, either embedded in a QR code, or written on the tag.
 
-See: Scanning_ for a description of tag options.
+See: `Tag Options`_ for a description of tag options, and `Scanning a tag`_ to
+learn how to scan a tag.
 
-.. _Scanning: :ref:`scan`
+.. _Tag Options: :ref:`tagoptions`
+.. _Scanning a tag: :ref:`scantag`
 
 Ticket
 ______
 
 A record in Repairtagger that stores the information about an item that needs
 repair. A ticket will have a reference to the customer it is for, the repair(s)
-to be done,  the amount charged for each repair, how much the customer paid on
-dropoff, and optionally, notes and photos.
+to be done,  the amount charged for each repair, how much the customer paid when
+they dropped the item off, and optionally, notes and photos.
 
 See: `Creating a ticket`_ for more details.
 
@@ -114,9 +116,9 @@ See: `Managing your price list`_ for more details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: The life and times of a ticket
+   :caption: Getting Started
 
-   Introduction<ticketlife/index.rst>
+   The life and times of a ticket<ticketlife/index.rst>
    Scan a tag <ticketlife/scantag.rst>
    Fill in ticket information  <ticketlife/intake.rst>
    Do the work  <ticketlife/dothework.rst>
@@ -141,12 +143,12 @@ See: `Managing your price list`_ for more details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Scanning a tag
+   :caption: Tag Options
 
-   Introduction<scan/index.rst>
-   Text Recognition <scan/ocr.rst>
-   Keyboard <scan/keyboard.rst>
-   QR Tags <scan/qr.rst>
+   Introduction<tagoptions/index.rst>
+   Text Recognition <tagoptions/ocr.rst>
+   Keyboard <tagoptions/keyboard.rst>
+   QR Tags <tagoptions/qr.rst>
 
 .. toctree::
    :maxdepth: 2
