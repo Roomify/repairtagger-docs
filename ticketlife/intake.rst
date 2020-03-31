@@ -1,7 +1,7 @@
 .. _intake:
 
-BAT Introduction
-*****************
+Step 2: Add the ticket information
+**********************************
 
 BAT stands for Booking and Availability Management Tools.
 

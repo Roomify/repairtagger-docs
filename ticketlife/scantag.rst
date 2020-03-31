@@ -11,7 +11,7 @@ ticket, the app will open the existing ticket.
 If you are wondering where this tag number is supposed to come from, check out
 the tag options `here`_.
 
-.. _here: :ref:`tagoptions`
+.. _here: ../tagoptions/index.html
 
 Have a tag ready?
 
@@ -30,9 +30,7 @@ Tap on the button. You will see a ‘Loading Tag’ message, a new ticket will b
 created, and you will be taken to the Intake screen to start adding the ticket
 information.
 
-Now go to `Step 2`_.
-
-.. _Step 2: :ref:`intake`
+Now go to :doc:`intake`
 
 Option 2: Tag with QR Code
 --------------------------
@@ -48,12 +46,13 @@ Once the code is successfully read, you will see a ‘Loading Tag’ message, a 
 ticket will be created, and you will be taken to the Intake screen to start
 adding the ticket information.
 
-Now go to `Step 2`_.
+Now go to :doc:`intake`
 
-.. _Step 2: :ref:`intake`
-
-Option 3: Type a tag number in manually
+Option 3: Keyboard
 ---------------------------------------
+
+Bluetooth Barcode Scanner
+-------------------------
 
 Tap on the 'Keyboard' tab at the top of the page
 Type the tag number into the box.
@@ -61,4 +60,13 @@ Tap 'Load'
 You will see a ‘Loading Tag’ message, a new ticket will be created, and you
 will be taken to the Intake screen to start adding the ticket information.
 
-Now go to `Step 2`_.
+Type a tag number in manually
+-----------------------------
+
+Tap on the 'Keyboard' tab at the top of the page
+Type the tag number into the box.
+Tap 'Load'
+You will see a ‘Loading Tag’ message, a new ticket will be created, and you
+will be taken to the Intake screen to start adding the ticket information.
+
+Now go to :doc:`intake`
