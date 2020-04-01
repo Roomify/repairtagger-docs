@@ -1,21 +1,27 @@
 .. _editticket:
 
-Deleting a Ticket
-*****************
+Editing a ticket - making changes after intake
+**********************************************
 
-There are a few reasons that you might wish to delete a ticket. For example, if you scan a loose tag to make sure it did not get separated from a repair, and it brings you to the create ticket screen, you probably will wish to delete the ticket, and return the tag to your stock of empty tickets. Please keep in mind that a ticket should NOT be deleted after work was completed on it, and a customer has picked up their item. When a repair is picked up, the ticket is archived, to allow you to build a repair history over time. The ‘Delete Ticket’ button will instead DELETE the ticket forever, and remove any information associated with it from your repair history.
+If you need to add or change information after a ticket has been created, you can! Images can be added at any time when viewing a ticket, by clicking on the 'add image' icon. To change the customer, add notes, update/add/remove repair types, use the ticket repair screen.
 
-New ticket
-==========
+To edit the ticket, click on the ‘Edit Details’ link in the ‘Action’ dropdown when viewing the ticket.
 
-1. Scan tag and scroll to bottom of screen
-2. Click on ‘Delete Ticket’
-3. Confirm Deletion
-
-Existing ticket
+Change Customer
 ===============
 
-1. Click on ‘Edit Details’ in the Actions dropdown when viewing a ticket.
-2. Scroll to the bottom of the screen
-3. Click on ‘Delete Ticket’
-4. Confirm Deletion
+In order to change the customer associated with a ticket, simply tap on the 'customer search' icon or the 'add customer' icon, and add a new or existing customer in the same way as on intake.
+
+Add/Change/Remove repair types
+==============================
+
+This also works in the same way when editing a ticket as on intake. Tap on the trash can icon to remove a repair, or tap on the +/- icons in the 'Add Repairs' list.
+
+Edit Notes
+==========
+
+When editing the notes of an existing ticket, ensure you save your changes! Tap in the notes section to edit, and make your changes. Click on the ‘Save Changes’ button when you have finished typing.
+
+Add additional images
+=====================
+Add additional images by tapping on the 'add image' icon.
