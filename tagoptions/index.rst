@@ -86,14 +86,14 @@ You can use brass tags like these
 .. image:: images/brasstags.jpg
   :width: 200
 
-`Find them on Amazon <https://www.amazon.com/Numbered-Brass-Tags-Number-Options/dp/B079X5DT1H>`_
+`Example here on Amazon <https://www.amazon.com/Numbered-Brass-Tags-Number-Options/dp/B079X5DT1H>`_
 
 Or acrylic tags
 
 .. image:: images/redtags.jpg
   :width: 200
 
-`Find them on Amazon <https://www.amazon.com/Hamimelon-Engraved-Numbered-Acrylic-Organizing/dp/B0773NLNWK/ref=sr_1_5?keywords=numbered+tags&qid=1585778169&sr=8-5>`_
+`Example on Amazon <https://www.amazon.com/Hamimelon-Engraved-Numbered-Acrylic-Organizing/dp/B0773NLNWK/ref=sr_1_5?keywords=numbered+tags&qid=1585778169&sr=8-5>`_
 
 ************************
 Reusable tags - QR Codes
