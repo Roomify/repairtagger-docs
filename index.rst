@@ -5,75 +5,60 @@
 
 .. Type backquote (on same key as tilde) to link other rst docs)
 
+######################################
 Welcome to Repairtagger documentation!
-==========================================
+######################################
+
 Repairtagger Documentation Version 2.0
 
 Need Help? email us at support@repairtagger.com
 
+************
 Introduction
-------------
+************
 
 Repairtagger is your ticket tracking, customer database, and notification
 system. Keep track of your customers and their repair history, using any tags
 you like. With texts and email templates, notifying your customers is easier
 than ever.
 
-If you are new to Repairtagger, start with `the life and times of a
-Repairtagger ticket`_ to get a step by step explanation of how to use the app.
-
-.. _the life and times of a Repairtagger ticket: :ref: `ticketlife`
+If you are new to Repairtagger, start with :ref:`ticketlife` to get a step by
+step explanation of how to use the app.
 
 Terminology
-***********
+===========
 
-Tag
-___
+**Tag**
+  A physical tag that is attached to the item to be repaired. This tag must have
+  a number, either embedded in a QR code, or written on the tag.
+  You can refer to :ref:`tagoptions` for a description of tag options, and
+  :ref:`scantag` to learn how to scan a tag.
 
-A physical tag that is attached to the item to be repaired. This tag must have
-a number, either embedded in a QR code, or written on the tag.
+**Ticket**
 
-See: `Tag Options`_ for a description of tag options, and `Scanning a tag`_ to
-learn how to scan a tag.
+  A record in Repairtagger that stores the information about an item that needs
+  repair. A ticket will have a reference to the customer it is for, the repair(s)
+  to be done,  the amount charged for each repair, how much the customer paid when
+  they dropped the item off, and optionally, notes and photos.
 
-.. _Tag Options: :ref:`tagoptions`
-.. _Scanning a tag: :ref:`scantag`
+  See: :ref:`scantag` for more details.
 
-Ticket
-______
+**Customer**
 
-A record in Repairtagger that stores the information about an item that needs
-repair. A ticket will have a reference to the customer it is for, the repair(s)
-to be done,  the amount charged for each repair, how much the customer paid when
-they dropped the item off, and optionally, notes and photos.
+  A record in Repairtagger that stores a customers name and optionally a mobile
+  phone number, landline number, email, notes, and photos.
 
-See: `Creating a ticket`_ for more details.
+  See: :ref:`customerlist` for more details.
 
-.. _Creating a ticket: :ref:`scantag`
+**Customer List**
 
-Customer
-________
+  A searchable list of your Customers.
 
-A record in Repairtagger that stores a customers name and optionally a mobile
-phone number, landline number, email, notes, and photos.
+  See: :ref:`customers` for more details.
 
-See: `Customer List`_ for more details.
+**Ticket List**
 
-.. _Customer List: :ref:`customerlist`
-
-Customer List
-_____________
-
-A searchable list of your Customers.
-
-See: Customers_ for more details.
-
-.. _Customers: :ref:`customers`
-
-Ticket List
-___________
-
-A list of your tickets, divided into the following categories:
+  A list of your tickets, divided into the following categories:
 
   **Active**
 
@@ -88,31 +73,21 @@ A list of your tickets, divided into the following categories:
     Item is complete, the customer has picked it up, and the ticket has been
     archived.
 
-See: `Ticket List`_ for more details.
+See: :ref:`ticketlist` for more details.
 
-.. _Ticket List: :ref:`ticketlist`
+**Reports**
 
+  A simple overview of your ticket numbers for the month.
 
-Reports
-_______
+  See: :ref:`reports` for more details.
 
-A simple overview of your ticket numbers for the month.
+**Price List**
 
-See: Reports_ for more details.
+  Your price list is divided into categories, which each have their own repair
+  types. A repair type is given a name, a category, a price, and if that repair
+  type has a range, you can specifiy the max price.
 
-.. _Reports: :ref:`reports`
-
-Price List
-__________
-
-Your price list is divided into categories, which each have their own repair
-types. A repair type is given a name, a category, a price, and if that repair
-type has a range, you can specifiy the max price.
-
-See: `Managing your price list`_ for more details.
-
-.. _Managing your price list: :ref:`pricelist`
-
+  See: :ref:`pricelist` for more details.
 
 .. toctree::
    :maxdepth: 2
@@ -171,3 +146,5 @@ See: `Managing your price list`_ for more details.
    Business Information <admin/bizinformation.rst>
    Account <admin/account.rst>
    Subscription <admin/subscription.rst>
+
+.. DONE
