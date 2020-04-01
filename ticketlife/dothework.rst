@@ -20,13 +20,13 @@ as done. If you tap it by mistake, simply tap again, it will be unchecked.
 When all repairs on the ticket are marked as complete, the notifications options
 will appear. If you are now done with the ticket, move to :doc:`notifications`.
 
-If you wish to add photos of the completed repair, or update the
-ticket notes, tap on 'Not yet' in the notifications dropdown and continue with
-`(Optional) Adding Notes/Image(s)`_
+If you wish to add photos of the completed repair, or update the ticket notes,
+tap on 'Not yet' in the notifications dropdown and continue with
+`Adding Notes or Photos (Optional)`_
 
-********************************
-(Optional) Adding Notes/Image(s)
-********************************
+*********************************
+Adding Notes or Photos (Optional)
+*********************************
 
 If you wish to update the ticket with notes or photos of the completed repair,
 now is the time to do it!  You will not be able to edit the ticket once the
