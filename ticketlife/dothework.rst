@@ -1,62 +1,57 @@
 .. _dothework:
 
+###################
 Step 3: Do the Work
-*******************
+###################
 
-BAT stands for Booking and Availability Management Tools.
+To work on a ticket, start by scanning the tag.
+:ref:`scantag`
 
-It is a set of tools created by the `Roomify <https://roomify.us>`_ team to provide a foundation through which a wide range of availability management, reservation and booking use cases can be addressed. BAT will work with a variety of CMSs and PHP Frameworks, the first of which is Drupal.
+When you scan the tag of an existing ticket, you will be taken to the View
+ticket screen. (See: :ref:`viewticket` for more details.)
 
-BAT builds on our experience with Rooms, which handles the problem of bookings specifically for the accommodation for rental use case (vacation rentals, hotels, B&B, etc). With BAT we took everything we learned and built a system that will let you create an application like Rooms for: table booking at a restaurant, conference room bookings, sharing power tools with friends, or other miscellaneous booking activities.
+***********************
+1. Complete repair work
+***********************
 
-BAT on its own is a booking and availability management framework - much in the same way that Drupal is a content management framework or Drupal Commerce is an e-commerce framework. Our aim is to build specific solutions on top of BAT to tackle specific application domains.
+Each repair type on the ticket will be shown with a checkbox when viewing the
+ticket. When a repair is complete, tap on the checkbox, and it will be marked
+as done. If you tap it by mistake, simply tap again, it will be unchecked.
+When all repairs on the ticket are marked as complete, the notifications options
+will appear. If you are now done with the ticket, move to :doc:`notifications`.
 
-Basic Concepts
-==============
+If you wish to add photos of the completed repair, or update the
+ticket notes, tap on 'Not yet' in the notifications dropdown and continue with
+`(Optional) Adding Notes/Image(s)`_
 
+********************************
+(Optional) Adding Notes/Image(s)
+********************************
 
-.. image:: images/bat-high-level.png
+If you wish to update the ticket with notes or photos of the completed repair,
+now is the time to do it!  You will not be able to edit the ticket once the
+customer has picked up the item and the ticket has been archived. To add an
+photo, simply tap on the Image icon.
 
-Units
------
+IMAGE
 
-Units are the things that can be booked. For BAT they simply have an ID, a default state (for a given event type - we will get to this later) and can define Constraints. Constraints are like extra rules about whether a specific unit is available (we get back to these as well).
+Your device camera will open. Click the shutter button to take a picture. If
+you are happy with the image, click on 'Use Photo', otherwise click on 'Retake'
+to retake the picture. The 'add image' will be replaced with the thumbnail while
+the image uploads.
 
-For each application, units will represent something concrete like hotel rooms, cars, tables, etc.
+To add notes, edit the ticket. Tap on the 'Gear' icon in the ticket status bar
+and select 'Edit Ticket'.
 
-Events
--------
+IMAGE
 
-Events define what value a unit has for a given time period. There can be multiple types of events and the value of the event together with the type of event will provide some meaning within an application.
+Update the notes as wished, and tap on 'Save Notes'. (See: :ref:`editticket` for
+more information about editing tickets.)
 
-For example, one set of events can denote "Availability," while another, "Price." The value of the event type "Availability" will indicate whether a unit is available (1), unavailable (0) or booked (2) - i.e. they indicate the state of a unit. The value of the event type "Price" could denote, instead of the cost per night, a change in the state of a unit for a given time period. So to make a unit change states from available to booked, for a given set of days, you can retrieve all pricing events for that set of days and multiply the number of nights by the value associated with that event.
+IMAGE
 
-Calendar
----------
+Scroll down until you see the 'View Ticket' button.  Tap on this. Now you are
+ready to notify the customer. Tap on the 'Gear' icon, select 'Send
+Notification', and continue with :doc:`notifications`.
 
-A Calendar allows us to retrieve events of a given type for a given set of units as well as search over units to see the ones that match specific event values.
-
-You can, for example, use a calendar to find all units that from Jan 1, 2016 to Jan 15, 2016 have Availability events that only hold a value of 2. Given our definition above, this would indicate booked units.
-
-CalendarResponse
------------------
-
-A search using the Calendar will return a CalendarResponse - this will indicate for each unit that was involved in the search whether it is part of the included units or the excluded units together with the reason it ended up in one or the other set. This allows our applications to reason about why something didn't make the cut and display it to the end user.
-
-Constraints
------------
-
-When a calendar does a search, it does it for a given time range and a valid set of values. We can identify further constrainers either at the global level or at the unit level. For example, a specific unit may indicate that it will only make itself available if the range search starts on a Monday, or it is of at least seven days, etc.
-
-The Calendar Response will hold information about which constraint moved a unit from the included set to the excluded set.
-
-Valuator
---------
-
-A Valuator performs an operation on event values to determine the value of a unit for a given period given a specific valuation strategy. The simplest case for hotels would be to sum up the cost per night. Our applications can define multiple valuators and refer to different EventTypes to cater for a range of valuation strategies.
-
-Store
-------
-Store records the value of a unit for a given moment in time. The Store goes down to minute granularity which means our units can have a different value for each minute in time. The Store data structure is designed to quickly allows us to determine the value of a unit for a given time range and quickly change it.
-
-Currently we support a SQLite store (used in our tests) and a DrupalStore. Additional Store support is on its way.
+.. IMAGES

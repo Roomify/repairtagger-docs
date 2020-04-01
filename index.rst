@@ -111,10 +111,10 @@ See: :ref:`ticketlist` for more details.
    :caption: Tickets
 
    Introduction<tickets/index.rst>
-   Ticket List <tickets/ticketlist.rst>
-   View Ticket <tickets/viewticket.rst>
-   Edit Ticket <tickets/editticket.rst>
-   Delete Ticket <tickets/deleteticket.rst>
+   Ticket List<tickets/ticketlist.rst>
+   View Ticket<tickets/viewticket.rst>
+   Edit Ticket<tickets/editticket.rst>
+   Delete Ticket<tickets/deleteticket.rst>
 
 .. toctree::
    :maxdepth: 2
