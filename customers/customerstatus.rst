@@ -3,7 +3,7 @@
 Customer Status Page
 ********************
 
-.. image:: images/customer_status.png
+.. .. image:: images/customer_status.png
 
 Customer Information
 ====================
@@ -25,5 +25,5 @@ Archived Tickets
 
 * To see archived tickets for this customer, simply click on the 'View archived tickets' button at the bottom of the status page - you will be taken to the ticket list, filtered to show only that customer's archived tickets
 
-.. image:: images/customer_archived_tickets.png
+.. .. image:: images/customer_archived_tickets.png
 
