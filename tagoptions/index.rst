@@ -18,6 +18,7 @@ of shoes to be repaired, you would:
 3. attach the tag you scanned to the pair of shoes
 
 .. image:: images/physical_tags.png
+  :width: 400
 
 Now anytime you scan the tag attached to the pair of shoes, you can access all
 of the information associated with that repair.
@@ -47,13 +48,16 @@ in use on one ticket at a time.
 
 Some examples of paper tags that would work well with Repairtagger are:
 
-https://www.xpresstags.com/manila-repair-tags/tag-with-stub-and-strings/sku-t368-s
+`XPresstags <https://www.xpresstags.com/manila-repair-tags/tag-with-stub-and-strings/sku-t368-s>`_
 
-https://www.uline.com/Product/ProductDetailRootItem?modelnumber=S-7220
+`ULine <https://www.uline.com/Product/ProductDetailRootItem?modelnumber=S-7220>`_
 
-You could even use numbered stickers!
+You could even use numbered stickers like these!
 
-https://www.staples.com/Tape-Logic-1-x-1-1-2-Consecutive-Numbered-Labels-0501-1000/product_191313
+.. image:: images/numberedstickers.jpg
+  :width: 200
+
+`Find them at Amazon <https://www.amazon.com/Consecutively-Numbered-Labels-Measure-Sequences/dp/B00GLRVTI8?ref_=fsclp_pl_dp_1&th=1>`_
 
 How to scan a numbered tag
 --------------------------
@@ -75,13 +79,37 @@ IMAGE of OCR scanning a paper tag
 Reusable tags - Numbered
 ************************
 
+Any tags with clearly written numbers can be used with Repairtagger.
+
+You can use brass tags like these
+
+.. image:: images/brasstags.jpg
+  :width: 200
+
+`Find them on Amazon <https://www.amazon.com/Numbered-Brass-Tags-Number-Options/dp/B079X5DT1H>`_
+
+Or acrylic tags
+
+.. image:: images/redtags.jpg
+  :width: 200
+
+`Find them on Amazon <https://www.amazon.com/Hamimelon-Engraved-Numbered-Acrylic-Organizing/dp/B0773NLNWK/ref=sr_1_5?keywords=numbered+tags&qid=1585778169&sr=8-5>`_
+
 ************************
 Reusable tags - QR Codes
 ************************
 
+
 ************************
 Reusable tags - Barcodes
 ************************
+
+Or barcoded stickers!
+
+.. image:: images/barcodestickers.jpg
+  :width: 200
+
+`Find them on Amazon <https://www.amazon.com/Pre-Printed-Consecutively-Numbered-Sticker-001-480/dp/B07SRSWRM1/ref=sr_1_5?keywords=QR+code+tags&qid=1585778459&sr=8-5>`_
 
 ***************************
 Coming Soon - Printed tags!
