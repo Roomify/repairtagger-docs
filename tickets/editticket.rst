@@ -3,7 +3,7 @@
 Editing a ticket - making changes after intake
 **********************************************
 
-If you need to add or change information after a ticket has been created, you can! Images can be added at any time when viewing a ticket, by clicking on the 'add image' icon. To change the customer, add notes, update/add/remove repair types, use the ticket repair screen.
+If you need to add or change information after a ticket has been created, you can! Images can be added at any time when viewing a ticket, by clicking on the 'add image' icon. To change the customer, add notes, update/add/remove repair types, you will need to edit the ticket.
 
 To edit the ticket, click on the ‘Edit Details’ link in the ‘Action’ dropdown when viewing the ticket.
 
