@@ -139,7 +139,7 @@ See: :ref:`ticketlist` for more details.
    :caption: Admin
 
    Introduction<admin/index.rst>
-   Price List <admin/pricelist.rst>
+   Managing your Price List <admin/pricelist.rst>
    Due Dates <admin/duedates.rst>
    Notifications <admin/notificationtemplates.rst>
    Help <admin/help.rst>

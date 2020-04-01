@@ -1,62 +1,119 @@
 .. _notifications:
 
+#####################
 Step 4: Notifications
-*********************
+#####################
 
-BAT stands for Booking and Availability Management Tools.
+When all repairs are marked as complete for a ticket, or a tag is scanned for a
+ticket that is in the ‘Not Notified’ status, you will be given the option to
+notify the customer that their repair is complete.
 
-It is a set of tools created by the `Roomify <https://roomify.us>`_ team to provide a foundation through which a wide range of availability management, reservation and booking use cases can be addressed. BAT will work with a variety of CMSs and PHP Frameworks, the first of which is Drupal.
+`Text`_
 
-BAT builds on our experience with Rooms, which handles the problem of bookings specifically for the accommodation for rental use case (vacation rentals, hotels, B&B, etc). With BAT we took everything we learned and built a system that will let you create an application like Rooms for: table booking at a restaurant, conference room bookings, sharing power tools with friends, or other miscellaneous booking activities.
+`Email`_
 
-BAT on its own is a booking and availability management framework - much in the same way that Drupal is a content management framework or Drupal Commerce is an e-commerce framework. Our aim is to build specific solutions on top of BAT to tackle specific application domains.
+`Phone Call`_
 
-Basic Concepts
-==============
+`Customer with Multiple Tickets`_
 
+****
+Text
+****
 
-.. image:: images/bat-high-level.png
+If this customer has a mobile phone number, and texts are enabled (see
+:ref:`editcustomer` for more details), you will be able to send a text
+notification.
 
-Units
------
+.. note:: You will only be able to send text notifications from a mobile device
+ with system texts. iPhones, iPads, or Android phones will all be able to send
+ texts.
 
-Units are the things that can be booked. For BAT they simply have an ID, a default state (for a given event type - we will get to this later) and can define Constraints. Constraints are like extra rules about whether a specific unit is available (we get back to these as well).
+To send a text notification, tap on the 'Text' button.
 
-For each application, units will represent something concrete like hotel rooms, cars, tables, etc.
+IMAGE
 
-Events
--------
+A text will be opened in your device's texting application, prefilled with the
+customer's phone number, and your text notification template.
 
-Events define what value a unit has for a given time period. There can be multiple types of events and the value of the event together with the type of event will provide some meaning within an application.
+.. note:: For more information on editing your notification templates, see
+ :ref:`notificationtemplates`.
 
-For example, one set of events can denote "Availability," while another, "Price." The value of the event type "Availability" will indicate whether a unit is available (1), unavailable (0) or booked (2) - i.e. they indicate the state of a unit. The value of the event type "Price" could denote, instead of the cost per night, a change in the state of a unit for a given time period. So to make a unit change states from available to booked, for a given set of days, you can retrieve all pricing events for that set of days and multiply the number of nights by the value associated with that event.
+Send the text, and you will be returned to the Repairtagger app.  The ticket is
+now marked as 'Notified', and will be moved to the 'Complete' section of the
+ticket list.  See :ref:`ticketlist` for more information.
 
-Calendar
----------
+*****
+Email
+*****
 
-A Calendar allows us to retrieve events of a given type for a given set of units as well as search over units to see the ones that match specific event values.
+If this customer has an email address, (see :ref:`editcustomer` for more
+details), you will be able to send an email notification.
 
-You can, for example, use a calendar to find all units that from Jan 1, 2016 to Jan 15, 2016 have Availability events that only hold a value of 2. Given our definition above, this would indicate booked units.
+An email will be opened in your device's default email application, prefilled
+with the customer's email address, and your email notification template.
 
-CalendarResponse
------------------
+.. note:: For more information on editing your notification templates, see
+ :ref:`notificationtemplates`.
 
-A search using the Calendar will return a CalendarResponse - this will indicate for each unit that was involved in the search whether it is part of the included units or the excluded units together with the reason it ended up in one or the other set. This allows our applications to reason about why something didn't make the cut and display it to the end user.
+Send the email, and you will be returned to the Repairtagger app.  The ticket is
+now marked as 'Notified', and will be moved to the 'Complete' section of the
+ticket list.  See :ref:`ticketlist` for more information.
 
-Constraints
------------
+**********
+Phone call
+**********
 
-When a calendar does a search, it does it for a given time range and a valid set of values. We can identify further constrainers either at the global level or at the unit level. For example, a specific unit may indicate that it will only make itself available if the range search starts on a Monday, or it is of at least seven days, etc.
+If this customer has a mobile  or landline phone number (see
+:ref:`editcustomer` for more details), you will be able to call them.
 
-The Calendar Response will hold information about which constraint moved a unit from the included set to the excluded set.
+.. note:: You will only be able to make phone calls from a mobile device that is
+ capable of making phone calls.
 
-Valuator
---------
+To make a phone call, tap on the 'Call' button.
 
-A Valuator performs an operation on event values to determine the value of a unit for a given period given a specific valuation strategy. The simplest case for hotels would be to sum up the cost per night. Our applications can define multiple valuators and refer to different EventTypes to cater for a range of valuation strategies.
+IMAGE
 
-Store
-------
-Store records the value of a unit for a given moment in time. The Store goes down to minute granularity which means our units can have a different value for each minute in time. The Store data structure is designed to quickly allows us to determine the value of a unit for a given time range and quickly change it.
+You will be shown a list of available phone numbers for that customer.  Tap on
+the phone number you wish to call, and make your phone call.  When you are
+finished, you will be returned to the Repairtagger app, the ticket will be
+marked as 'Notified' and moved to the 'Complete' section of the
+ticket list.  See :ref:`ticketlist` for more information.
 
-Currently we support a SQLite store (used in our tests) and a DrupalStore. Additional Store support is on its way.
+******************************
+Customer with Multiple Tickets
+******************************
+
+If the customer has more than one ticket, you will have a few notification
+options, depending on the status of their other open tickets.
+
+Customer has multiple open tickets (Includes tickets with incomplete repairs)
+-----------------------------------------------------------------------------
+
+Not yet - Tap this button if the customer wishes to pick up all of their items
+at one time.
+Ready for Pickup - Tap this button if you have already notified the customer
+that the item is complete and ready for pickup.
+Email/Text/Call - Tap on one of the notification buttons if you wish to notify
+the customer that their repair is complete and ready for pickup, for the current
+ticket only. When you have finished sending a text or email, or making your
+phone call, the current ticket will be marked as 'Notified' and moved to the
+'Complete' section of the ticket list.
+
+See :ref:`ticketlist` for more information.
+
+Customer has multiple open tickets (All repair work is complete)
+----------------------------------------------------------------
+
+Not yet - Tap this button if you are done with all of their tickets, but are not
+ready to notify them.
+Ready for Pickup - Tap this button if you have already notified the customer
+that their items are ready for pickup.
+Email/Text/Call - Tap on one of the notification buttons if you wish to notify
+the customer that all of their repairs are complete and ready for pickup.  When
+you have finished sending a text or email, or making your phone call, all of
+the open tickets will be marked as 'Notified' and moved to the 'Complete'
+section of the ticket list.
+
+See :ref:`ticketlist` for more information.
+
+.. IMAGES
