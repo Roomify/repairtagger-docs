@@ -121,9 +121,7 @@ See: :ref:`ticketlist` for more details.
    :caption: Tag Options
 
    Physical Tag Options<tagoptions/index.rst>
-   Text Recognition <tagoptions/ocr.rst>
-   Keyboard <tagoptions/keyboard.rst>
-   QR Tags <tagoptions/qr.rst>
+   QR Tag Design <tagoptions/qrtagdesign.rst>
 
 .. toctree::
    :maxdepth: 2

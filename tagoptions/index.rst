@@ -95,14 +95,95 @@ Or acrylic tags
 
 `Example on Amazon <https://www.amazon.com/Hamimelon-Engraved-Numbered-Acrylic-Organizing/dp/B0773NLNWK/ref=sr_1_5?keywords=numbered+tags&qid=1585778169&sr=8-5>`_
 
+Need LOTS of tags?  Try tree tags!
+
+.. image:: images/tree_tags.jpg
+  :width: 200
+
+`At Terra tech <https://terratech.net/products/tags/round-aluminum-tags-numbered-1-1000/>`_
+
+How to scan a re-usable numbered tag
+------------------------------------
+
+IMAGE of scan icon in footer
+
+1. Tap on the ‘scan’ icon in the footer
+2. Tap on the ‘Tag’ icon tab at the top of the page
+3. Position the lit box over the tag number.
+4. Hold it there until a button appears beneath the camera window with the tag
+   number on it.
+5. Tap on the button. You will see a ‘Loading Tag’ message. If this tag number
+   is in use on a ticket, you will be taken to the ticket.  If it is not in use,
+   a new ticket will be created.
+
+IMAGE of OCR scanning a reusable tag
+
 ************************
 Reusable tags - QR Codes
 ************************
 
+Repairtagger was originally built to use Repairtagger provided tags, with QR
+codes. In order to make the app as affordable and as simple to get started with
+as possible, tags are no longer provided through Repairtagger.  If you are
+interested in using QR codes with the app, see :ref:`qrtagdesign` for
+instructions on how to design and order your own branded QR tags.
+
+.. note:: A Bluetooth scanner capable of scanning QR codes can be used with
+ Repairtagger.  See the `Reusable tags - Barcodes`_ section for more details.
+
+How to scan a QR code with the device camera
+--------------------------------------------
+
+IMAGE of scan icon in footer
+
+1. Tap on the ‘scan’ icon in the footer
+2. Tap on the ‘Camera’ icon tab at the top of the page
+3. Position the camera over the QR code on the tag.
+4. When the QR code has been read, you will see a ‘Loading Tag’ message. If the
+   tag number in the QR Code is in use on a ticket, you will be taken to the
+   ticket.  If it is not in use, a new ticket will be created.
+
+IMAGE of QR scanning a reusable tag
+
+How to scan a QR code with a Bluetooth Scanner
+----------------------------------------------
+
+IMAGE of scan icon in footer
+
+1. Tap on the ‘scan’ icon in the footer
+2. Tap on the ‘Keyboard’ icon tab at the top of the page
+3. Scan the QR code with your scanner.
+4. When the QR code has been read, tap on 'Load'
+5. You will see a ‘Loading Tag’ message. If the tag number in the QR Code is in
+   use on a ticket, you will be taken to the ticket.  If it is not in use, a new
+   ticket will be created.
 
 ************************
 Reusable tags - Barcodes
 ************************
+
+.. warning:: A Bluetooth scanner that is connected to your device is required to
+ be able to scan Barcodes into Repairtagger. A known compatible device can be
+ found here: `Bluetooth Scanner <https://www.amazon.com/NETUM-Bluetooth-Handheld-Wireless-NT-1228BL/dp/B07CBS52KJ>`_
+
+.. note:: Most devices consider scanners to be a bluetooth keyboard, and this
+ can prevent the device keyboard from coming up while the scanner is connected.
+ This can be an issue on Android devices, but there is a setting to change this:
+ Settings -> general management -> language and input -> physical keyboard -> show onscreen keyboard
+
+How to scan a tag with a Barcode
+--------------------------------
+
+IMAGE of scan icon in footer
+
+1. Tap on the ‘scan’ icon in the footer
+2. Tap on the ‘Camera’ icon tab at the top of the page
+3. Position the camera over the QR code on the tag.
+4. When the QR code has been read, you will see a ‘Loading Tag’ message. If the
+   tag number in the QR Code is in use on a ticket, you will be taken to the
+   ticket.  If it is not in use, a new ticket will be created.
+
+IMAGE of QR scanning a reusable tag
 
 Or barcoded stickers!
 
@@ -115,22 +196,5 @@ Or barcoded stickers!
 Coming Soon - Printed tags!
 ***************************
 
-
-Tap on the ‘Scan tag’ icon in the footer
-
-Scan tag with number
-Tap on the ‘#’ tab at the top of the page
-
-Position the lit box over the tag number.
-Once the code is successfully read, you will see a ‘Loading Tag’ message, and you will be taken to the existing ticket, if the tag number is in use, or to a new ticket, if the tag number is not in use.
-Scan tag with QR Code
-Tap on the ‘Camera’ tab at the top of the page
-
-Line up the qr code on the tag in the camera frame.
-Once the code is successfully read, you will see a ‘Loading Tag’ message, and you will be taken to the existing ticket, if the tag number is in use, or to a new ticket, if the tag number is not in use.
-Type a tag number in manually
-Tap on the ‘Keyboard’ tab at the top of the page
-
-Type the tag number into the box.
-Tap "Load"
-You will see a ‘Loading Tag’ message, and you will be taken to the existing ticket, if the tag number is in use, or to a new ticket, if the tag number is not in use.
+.. IMAGES
+.. Sections starting with 'Words here'
