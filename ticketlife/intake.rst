@@ -146,7 +146,7 @@ Photos
 ------
 
 To add a photo to a ticket (for example, if you wish to have a record of the
-condition the item was in when it was dropped off), click on the 'add image'
+condition the item was in when it was dropped off), tap on the 'add image'
 icon.
 
 IMAGE
