@@ -28,37 +28,37 @@ step explanation of how to use the app.
 Terminology
 ===========
 
-**Tag**
-  A physical tag that is attached to the item to be repaired. This tag must have
-  a number, either embedded in a QR code, or written on the tag.
-  You can refer to :ref:`tagoptions` for a description of tag options, and
-  :ref:`scantag` to learn how to scan a tag.
+  **Tag**
+    A physical tag that is attached to the item to be repaired. This tag must have
+    a number, either embedded in a QR code, or written on the tag.
+    You can refer to :ref:`tagoptions` for a description of tag options, and
+    :ref:`scantag` to learn how to scan a tag.
 
-**Ticket**
+  **Ticket**
 
-  A record in Repairtagger that stores the information about an item that needs
-  repair. A ticket will have a reference to the customer it is for, the repair(s)
-  to be done,  the amount charged for each repair, how much the customer paid when
-  they dropped the item off, and optionally, notes and photos.
+    A record in Repairtagger that stores the information about an item that needs
+    repair. A ticket will have a reference to the customer it is for, the repair(s)
+    to be done,  the amount charged for each repair, how much the customer paid when
+    they dropped the item off, and optionally, notes and photos.
 
-  See: :ref:`scantag` for more details.
+    See: :ref:`scantag` for more details.
 
-**Customer**
+  **Customer**
 
-  A record in Repairtagger that stores a customers name and optionally a mobile
-  phone number, landline number, email, notes, and photos.
+    A record in Repairtagger that stores a customers name and optionally a mobile
+    phone number, landline number, email, notes, and photos.
 
-  See: :ref:`customerlist` for more details.
+    See: :ref:`customerlist` for more details.
 
-**Customer List**
+  **Customer List**
 
-  A searchable list of your Customers.
+    A searchable list of your Customers.
 
-  See: :ref:`customers` for more details.
+    See: :ref:`customers` for more details.
 
-**Ticket List**
+  **Ticket List**
 
-  A list of your tickets, divided into the following categories:
+    A list of your tickets, divided into the following categories:
 
   **Active**
 
@@ -94,18 +94,18 @@ See: :ref:`ticketlist` for more details.
    :caption: Getting Started
 
    The life and times of a ticket<ticketlife/index.rst>
-   Step 1: Scan a tag <ticketlife/scantag.rst>
+   Step 1. Scan a tag <ticketlife/scantag.rst>
    Step 2: Fill in ticket information  <ticketlife/intake.rst>
    Step 3: Do the work  <ticketlife/dothework.rst>
    Step 4: Notify the customer  <ticketlife/notifications.rst>
    Step 5: Pickup and Archival <ticketlife/pickup.rst>
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Tag Options
+   :maxdepth: 2
+   :caption: Tag Options
 
-  Physical Tag Options<tagoptions/index.rst>
-  QR Tag Design <tagoptions/qrtagdesign.rst>
+   Physical Tag Options<tagoptions/index.rst>
+   QR Tag Design <tagoptions/qrtagdesign.rst>
 
 .. toctree::
    :maxdepth: 2
@@ -122,6 +122,12 @@ See: :ref:`ticketlist` for more details.
    View Ticket<tickets/viewticket.rst>
    Edit Ticket<tickets/editticket.rst>
    Delete Ticket<tickets/deleteticket.rst>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Scan
+
+   Scanning Tags <scanningtags/index.rst>
 
 .. toctree::
    :maxdepth: 2
