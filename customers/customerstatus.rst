@@ -32,12 +32,12 @@ Open Tickets
 If a customer has open tickets, they will be shown here.
 
 Pending Tickets
-===============
++++++++++++++++
 
 Tickets that are waiting to be worked on are shown in the 'Pending' section.
 
 Done Tickets
-============
+++++++++++++
 
 Tickets for which the customer has been notified will be shown in the 'Done'
 section.
