@@ -101,10 +101,17 @@ See: :ref:`ticketlist` for more details.
    Step 5: Pickup and Archival <ticketlife/pickup.rst>
 
 .. toctree::
+  :maxdepth: 2
+  :caption: Tag Options
+
+  Physical Tag Options<tagoptions/index.rst>
+  QR Tag Design <tagoptions/qrtagdesign.rst>
+
+.. toctree::
    :maxdepth: 2
    :caption: Reports
 
-   Introduction<reports/index.rst>
+   Reports<reports/index.rst>
 
 .. toctree::
    :maxdepth: 2
@@ -115,13 +122,6 @@ See: :ref:`ticketlist` for more details.
    View Ticket<tickets/viewticket.rst>
    Edit Ticket<tickets/editticket.rst>
    Delete Ticket<tickets/deleteticket.rst>
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Tag Options
-
-   Physical Tag Options<tagoptions/index.rst>
-   QR Tag Design <tagoptions/qrtagdesign.rst>
 
 .. toctree::
    :maxdepth: 2
