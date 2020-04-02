@@ -1,4 +1,3 @@
-.. _statusbar:
 
 *****************
 Ticket Status bar

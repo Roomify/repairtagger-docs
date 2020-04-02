@@ -1,4 +1,3 @@
-.. _scantaginstructions:
 
 *****************
 How to scan a tag
