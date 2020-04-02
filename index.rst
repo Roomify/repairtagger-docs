@@ -127,7 +127,7 @@ See: :ref:`ticketlist` for more details.
    :maxdepth: 2
    :caption: Scan
 
-   Scanning Tags <scanningtags/index.rst>
+   Scan <scan/index.rst>
 
 .. toctree::
    :maxdepth: 2

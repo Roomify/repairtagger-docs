@@ -1,4 +1,4 @@
-.. _scanningtags:
+.. _scan:
 
 ##############
 Scanning a tag
