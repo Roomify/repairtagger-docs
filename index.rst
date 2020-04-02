@@ -152,9 +152,9 @@ See: :ref:`ticketlist` for more details.
    Subscription <admin/subscription.rst>
 
 .. toctree::
-  :maxdepth: 2
-  :caption: Repair Status Page
+   :maxdepth: 2
+   :caption: Repair Status Page
 
-  Repair Status Page <repairstatuspage/index.rst>
+   Repair Status Page <repairstatuspage/index.rst>
 
 .. DONE
