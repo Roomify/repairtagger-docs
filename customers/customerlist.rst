@@ -7,16 +7,21 @@ Customer List
 The customer list can be accessed at any time by tapping on the people icon in
 the footer menu.
 
-IMAGE of customer icon in footer
+.. TODO add image of customer icon in footer
 
-To search for a customer, start typing a first name, last name, or phone number.
-The list will be filtered down to matching customers as you type. When you see
-the customer you are looking for, tap on their name to open the Customer status
-page. See: :doc:`customerstatus` for more details.
+To search for a customer, start typing a first name, last name, or phone number,
+then tap on the button with the search icon.
+
+.. image:: images/customer-list.png
+  :width: 300
+  :align: center
+
+When you see the customer you are looking for, tap on their name to open their
+Customer status page. See: :doc:`customerstatus` for more details.
 
 Customers with open tickets will have a tag icon next to their name.  If they
 have more than one open ticket, the number will be shown in the tag icon.
 
-IMAGE of tag icon with 3 open tickets
-
-.. .. image:: images/customer_list_search.png
+.. image:: images/customer-list-multipletickets.png
+  :width: 300
+  :align: center
