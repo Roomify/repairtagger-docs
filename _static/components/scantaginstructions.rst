@@ -25,7 +25,9 @@ You will see a ‘Loading Tag’ message when the QR code has been read. If the 
 number is in use, you will be taken to the existing ticket, otherwise a new
 ticket will be created.
 
-IMAGE of tag with QR code being scanned
+.. image:: /_static/components/images/scanning-qr-code.jpeg
+  :width: 400
+  :align: center
 
 Keyboard Icon
 -------------
@@ -64,6 +66,10 @@ Scanning by typing in a number
 You will see a ‘Loading Tag’ message. If the tag number is in use, you will be
 taken to the existing ticket, otherwise a new ticket will be created.
 
+.. image:: /_static/components/images/type-number-manually.png
+  :width: 400
+  :align: center
+
 Tag Icon
 --------
 
@@ -85,4 +91,6 @@ Scanning using Text Recognition
    is in use on a ticket, you will be taken to the ticket.  If it is not in use,
    a new ticket will be created.
 
-IMAGE of OCR scanning a paper tag
+.. image:: /_static/components/images/scanning-ocr-tag.jpeg
+ :width: 400
+ :align: center
