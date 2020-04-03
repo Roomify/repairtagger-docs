@@ -14,13 +14,17 @@ will be shown the Picked Up section.
 
 If there is a balance due on the ticket, it will be shown here.
 
-IMAGE
+.. image:: images/pickup-balancedue.png
+  :width: 400
+  :align: center
 
 Collect the remaining balance, and then tap on 'Yes, paid in full'
 
 If the ticket is already paid in full, this will be shown here.
 
-IMAGE
+.. image:: images/pickup-paidinfull.png
+  :width: 400
+  :align: center
 
 Tap on 'Yes, picked up'.
 
