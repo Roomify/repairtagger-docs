@@ -10,7 +10,9 @@ can!
 To edit the ticket, click on the ‘Edit Details’ link in the ‘Action’ dropdown
 when viewing the ticket.
 
-IMAGE of Edit details link in action bar
+.. image:: /ticketlife/images/edit-ticket-actions.png
+  :width: 300
+  :align: center
 
 ***************
 Change Customer
@@ -34,11 +36,15 @@ Add/Change/Remove repair types
 This also works in the same way when editing a ticket as on intake. You will see
 all of your categories beneath the customer name.
 
-IMAGE
+.. image:: /ticketlife/images/categories.png
+  :width: 300
+  :align: center
 
 Tap on a category to show its repairs.
 
-IMAGE
+.. image:: /ticketlife/images/repair-types.png
+  :width: 300
+  :align: center
 
 Tap on a repair to add it to the ticket.
 
@@ -50,7 +56,9 @@ Repeat the process to add more repairs.
 To change the quantity or price of an existing repair, or to remove it, tap on
 the repair in the invoice section.
 
-IMAGE
+.. image:: /ticketlife/images/edit-repair-type.png
+  :width: 300
+  :align: center
 
 You will be able to add more of the same repair, change the price, or delete
 the repair from the ticket. The price is set per repair, so if you want to add
@@ -66,7 +74,9 @@ Update amount paid
 If you need to change how much the customer has paid towards the ticket, tap on
 'Paid' in the Invoice.
 
-IMAGE
+.. image:: /ticketlife/images/edit-amount-paid.png
+  :width: 300
+  :align: center
 
 Type in the updated amount paid.
 
@@ -102,8 +112,6 @@ Add or Delete Photos
 
 To add additional photos to a ticket, tap on the 'add image' icon.
 
-IMAGE
-
 Your device camera will open. Click the shutter button to take a picture. If
 you are happy with the image, click on 'Use Photo', otherwise click on 'Retake'
 to retake the picture. The 'add image' will be replaced with the thumbnail while
@@ -117,5 +125,3 @@ another image can be taken. Thumbnails will appear to the right of the icon.
 
 To delete a photo, tap on the little red 'x'. You will be asked to confirm the
 deletion, to ensure that photos are not deleted by accident!
-
-Image of x to delete photo
