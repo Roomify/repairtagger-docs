@@ -8,15 +8,15 @@ There are three tabs at the top of the scan page:
 Camera Icon
 -----------
 
-IMAGE OF CAMERA icon
+.. image:: /_static/components/images/qr-camera-tab.png
+  :width: 400
+  :align: center
 
 This tab is where you can scan QR codes.
 
 *****************
 Scanning QR Codes
 *****************
-
-IMAGE of camera icon in tab
 
 1. Tap on the camera icon tab at the top of the page
 2. Position the camera over the QR code.
@@ -30,7 +30,9 @@ IMAGE of tag with QR code being scanned
 Keyboard Icon
 -------------
 
-IMAGE of keyboard icon
+.. image:: /_static/components/images/qr-keyboard-tab.png
+  :width: 400
+  :align: center
 
 In this tab, tag numbers can be scanned in two ways:
 
@@ -42,8 +44,6 @@ In this tab, tag numbers can be scanned in two ways:
 **********************************
 Scanning Using a Bluetooth Scanner
 **********************************
-
-IMAGE of keyboard icon in tab
 
 1. Tap on the keyboard icon tab at the top of the page
 2. Scan the barcode or qr code.
@@ -57,8 +57,6 @@ taken to the existing ticket, otherwise a new ticket will be created.
 Scanning by typing in a number
 ******************************
 
-IMAGE of keyboard icon in tab
-
 1. Tap on the keyboard icon tab at the top of the page
 2. Type the tag number into the tag number field.
 3. Tap 'Load'
@@ -69,15 +67,15 @@ taken to the existing ticket, otherwise a new ticket will be created.
 Tag Icon
 --------
 
-IMAGE of tag Icon
+.. image:: /_static/components/images/qr-ocr-tab.png
+  :width: 400
+  :align: center
 
 This tab allows scanning tag numbers using text recognition.
 
 *******************************
 Scanning using Text Recognition
 *******************************
-
-IMAGE of tag icon in tab
 
 1. Tap on the tag icon tab at the top of the page
 2. Position the lit box over the tag number.
