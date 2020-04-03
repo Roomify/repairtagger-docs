@@ -33,7 +33,9 @@ now is the time to do it!  You will not be able to edit the ticket once the
 customer has picked up the item and the ticket has been archived. To add an
 photo, simply tap on the Image icon.
 
-IMAGE
+.. image:: images/add-photo-icon.png
+  :width: 400
+  :align: center
 
 Your device camera will open. Click the shutter button to take a picture. If
 you are happy with the image, click on 'Use Photo', otherwise click on 'Retake'
@@ -43,15 +45,17 @@ the image uploads.
 To add notes, edit the ticket. Tap on the 'Gear' icon in the ticket status bar
 and select 'Edit Ticket'.
 
-IMAGE
+.. image:: images/edit-ticket-actions.png
+  :width: 400
+  :align: center
 
 Update the notes as wished, and tap on 'Save Notes'. (See: :ref:`editticket` for
 more information about editing tickets.)
 
-IMAGE
+.. image:: images/save-notes.png
+  :width: 400
+  :align: center
 
 Scroll down until you see the 'View Ticket' button.  Tap on this. Now you are
 ready to notify the customer. Tap on the 'Gear' icon, select 'Send
 Notification', and continue with :doc:`notifications`.
-
-.. IMAGES
