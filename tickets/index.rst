@@ -9,4 +9,4 @@ repair or repairs that a customer's item requires.
 
 Tap on the 'ticket' icon in the footer to view the :doc:`ticketlist`.
 
-IMAGE of tickets icon in footer
+.. TODO IMAGE of tickets icon in footer

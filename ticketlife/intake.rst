@@ -187,5 +187,3 @@ another image can be taken. Thumbnails will appear to the right of the icon.
 
 .. note:: Photos will occasionally take a little while to upload to the server.
  Do not worry if you do not see the uploaded photo right away!
-
-.. IMAGES

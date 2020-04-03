@@ -6,6 +6,10 @@ Ticket Status bar
 Date/Status
 -----------
 
+.. image:: /_static/components/images/status-calendar.png
+  :width: 400
+  :align: center
+
 The Calendar icon shows the current status of the ticket, and the Month/Date
 that the ticket was put in that status. In this example, the Status is
 'Notified', and the date is Oct 9. This means that the customer was notified on
@@ -17,6 +21,10 @@ a small window. Tap outside of the window to close it.
 Customer
 --------
 
+.. image:: /_static/components/images/status-customer.png
+  :width: 400
+  :align: center
+
 The customer icon shows the last name of the customer. Tapping on the customer
 icon will take you to the customer status page  for that customer.
 
@@ -25,12 +33,20 @@ See :ref:`customerstatus` for more details.
 Rack #
 ------
 
+.. image:: /_static/components/images/status-rack.png
+  :width: 400
+  :align: center
+
 The rack number is generated from the last digit of the tag, and will be a
 number from 0-9. Tapping on the rack icon will show the full tag number in the
 expanded section.
 
 Actions
 -------
+
+.. image:: /_static/components/images/status-actions.png
+  :width: 400
+  :align: center
 
 The actions menu contains any relevant links for the ticket. Possible links are:
   Edit Details:
