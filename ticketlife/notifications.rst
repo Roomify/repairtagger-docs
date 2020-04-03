@@ -30,7 +30,9 @@ notification.
 
 To send a text notification, tap on the 'Text' button.
 
-IMAGE
+.. image:: images/notify-text.png
+  :width: 400
+  :align: center
 
 A text will be opened in your device's texting application, prefilled with the
 customer's phone number, and your text notification template.
@@ -48,6 +50,12 @@ Email
 
 If this customer has an email address, (see :ref:`editcustomer` for more
 details), you will be able to send an email notification.
+
+To send an email notification, tap on the 'Email' button.
+
+.. image:: images/notify-email.png
+  :width: 400
+  :align: center
 
 An email will be opened in your device's default email application, prefilled
 with the customer's email address, and your email notification template.
@@ -71,7 +79,9 @@ If this customer has a mobile  or landline phone number (see
 
 To make a phone call, tap on the 'Call' button.
 
-IMAGE
+.. image:: images/notify-call.png
+  :width: 400
+  :align: center
 
 You will be shown a list of available phone numbers for that customer.  Tap on
 the phone number you wish to call, and make your phone call.  When you are
@@ -115,5 +125,3 @@ the open tickets will be marked as 'Notified' and moved to the 'Complete'
 section of the ticket list.
 
 See :ref:`ticketlist` for more information.
-
-.. IMAGES
