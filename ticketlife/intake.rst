@@ -18,18 +18,24 @@ optional!
 The first step in adding information to a ticket is adding a customer. You will
 see a Search by Phone field.
 
-IMAGE (phone search field)
+.. image:: images/phone-search.png
+  :width: 400
+  :align: center
 
 Start typing in the customer's phone number. If they are in the system already,
 you will see their name in the search results.
 
-IMAGE (search results)
+.. image:: images/search-results.png
+  :width: 300
+  :align: center
 
 Tap on their name to add them to the ticket.
 
 If you prefer, you can search for a customer by name or email.
 
-IMAGE
+.. image:: images/name-email-search.png
+  :width: 400
+  :align: center
 
 Tap on 'Search by name/email instead' and start typing the customer's first
 name, last name, or email. If they are in the system already, you will see their
@@ -41,7 +47,9 @@ Adding a New Customer
 If this customer has not yet been entered in Repairtagger, you can easily add
 them now. Tap on the 'Add Customer' icon.
 
-IMAGE
+.. image:: images/add-customer-icon.png
+  :width: 400
+  :align: center
 
 .. note:: If you tap on this by accident, simply tap 'Cancel' and you will be
  taken back to the search.
@@ -49,7 +57,9 @@ IMAGE
 You will be shown fields to enter the customer's information. Enter their
 details and tap on 'Add this customer'.
 
-IMAGE
+.. image:: images/add-customer.png
+  :width: 400
+  :align: center
 
 The customer will be created and added to the ticket.
 
@@ -71,20 +81,22 @@ The customer will be created and added to the ticket.
 When creating or editing a ticket, you will see all of your categories beneath
 the customer name.
 
-IMAGE
+.. image:: images/categories.png
+  :width: 400
+  :align: center
 
 .. note:: You can add, edit, and re-order your categories and repairs in your
  price list. :ref:`pricelist`
 
 Tap on a category to show its repairs.
 
-IMAGE
+.. image:: images/repair-types.png
+  :width: 400
+  :align: center
 
 Tap on a repair to add it to the ticket.
 
 Repeat the process to add more repairs.
-
-IMAGE
 
 .. note:: If you added a repair by accident, you can remove it in the next step.
 
@@ -94,13 +106,17 @@ IMAGE
 
 All repairs added to the ticket will be shown in the Invoice section.
 
-IMAGE
+.. image:: images/ticket-invoice.png
+  :width: 400
+  :align: center
 
 The ticket invoice shows how much each repair costs, the subtotal, the amount
 paid, and the balance that will be due on pickup, if any. To change the quantity
 or price of a repair, tap on the repair in the invoice.
 
-IMAGE
+.. image:: images/edit-repair-type.png
+  :width: 400
+  :align: center
 
 You will be able to add more of the same repair, change the price, or delete
 the repair from the ticket. The price is set per repair, so if you want to add
@@ -112,18 +128,24 @@ Tap on 'Save Changes'.
 If you take payment up front or a deposit, you can indicate how much the
 customer has already paid. In the Invoice, tap on 'Paid'
 
-IMAGE
+.. image:: images/edit-amount-paid.png
+  :width: 400
+  :align: center
 
 Type in the amount paid. If it is less than the ticket subtotal, the ticket will
 be marked as Balance Due. The amount due will be shown when the customer comes
 to pick up their item, and the ticket will be shown with a red dollar sign icon.
 
-IMAGE
+.. image:: images/amount-due.png
+  :width: 400
+  :align: center
 
 If the ticket is paid in full, it will be marked as such, and shown with a green
 dollar sign icon.
 
-IMAGE
+.. image:: images/paid-in-full.png
+  :width: 400
+  :align: center
 
 ******************************
 Optional: Add Notes and Photos
@@ -140,7 +162,9 @@ for the ticket. Tap in the 'Notes' field to start typing. Once you have finished
 entering your notes, click on the 'Save Notes' button that appears beneath the
 field.
 
-IMAGE
+.. image:: images/save-notes.png
+  :width: 400
+  :align: center
 
 Photos
 ------
@@ -149,7 +173,9 @@ To add a photo to a ticket (for example, if you wish to have a record of the
 condition the item was in when it was dropped off), tap on the 'add image'
 icon.
 
-IMAGE
+.. image:: images/add-photo-icon.png
+  :width: 400
+  :align: center
 
 Your device camera will open. Click the shutter button to take a picture. If
 you are happy with the image, click on 'Use Photo', otherwise click on 'Retake'
