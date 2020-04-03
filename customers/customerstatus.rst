@@ -4,7 +4,9 @@
 Customer Status Page
 ####################
 
-.. .. image:: images/customer_status.png
+.. image:: images/customer-status.png
+  :width: 300
+  :align: center
 
 The customer status page will show you all of the information stored in
 Repairtagger for a specific customer, and their open tickets.

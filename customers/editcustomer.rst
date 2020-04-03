@@ -7,6 +7,10 @@ Edit Customer
 You can edit existing customers by tapping on the ‘Edit Customer’ button on
 their customer status page.
 
+.. image:: images/edit-customer.png
+  :width: 300
+  :align: center
+
 Step by step instructions:
 
 1. Tap on the 'customer' icon in the footer. This will take you to the customer
@@ -20,8 +24,6 @@ Once you have loaded the edit page for the customer you wish to update, simply
 tap on any of the customer fields (First name, last name, email, phone number,
 Text, or notes) to edit. If you wish to add photos to this customer, tap on the
 'add image' icon.
-
-IMAGE of image icon on customer edit page
 
 Your device camera will open. Click the shutter button to take a picture. If
 you are happy with the image, click on 'Use Photo', otherwise click on 'Retake'
@@ -40,5 +42,3 @@ If you change your mind about the edits you made, and wish to discard them,
 simply tap on 'Cancel' in the top left corner of the page. You will be
 returned to the customer status page, and the customer's information will not
 be changed.
-
-.. .. image:: images/edit_customer.png
