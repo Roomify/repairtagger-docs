@@ -129,6 +129,8 @@ Edit a Repair
 
 To edit a repair, tap on its name in the list.  You will be taken to the same
 page as when you are creating a repair, but this time the information will be
-filled in for the repair you are editing.  Change the information as wished, and
-tap on the button labeled 'Save Repair Type'. The repair type will be saved, and
-you will be returned to the category page.
+filled in for the repair you are editing.
+
+Change the information as wished, and tap on the button labeled
+'Save Repair Type'. The repair type will be saved, and you will be returned to
+the category page.

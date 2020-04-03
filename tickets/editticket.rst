@@ -70,6 +70,21 @@ IMAGE
 
 Type in the updated amount paid.
 
+.. _editticketduedate:
+
+*************
+Edit Due Date
+*************
+
+.. note:: This is only shown when Due Dates are enabled for your shop. You can
+ view/change the settings in the :ref:`duedates` section of the :ref:`admin`
+ page.
+
+When due dates are enabled, a ticket is given a default due date when created,
+based on the 'Number of days ahead' setting in the Due Dates settings. To change
+the date due, simply tap on the pencil icon.  Make your changes to the date
+(and/or time, if enabled) and tap on the button labeled 'Save Due Date'.
+
 **********
 Edit Notes
 **********
