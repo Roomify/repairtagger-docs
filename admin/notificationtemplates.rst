@@ -35,7 +35,9 @@ To use a placeholder:
 When editing a template, look above the keyboard.  The available placeholders
 will be shown as buttons.
 
-IMAGE of placeholder buttons
+.. image:: images/placeholders.png
+  :width: 300
+  :align: center
 
 Tap on the button for the placeholder you wish to use.  It will be added to the
 template, at the end of the existing text.

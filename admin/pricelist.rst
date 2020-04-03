@@ -41,7 +41,9 @@ To re-order your categories, scroll to the bottom of the page and tap on the
 button labeled 'Re-Order Categories'. You will see the icons change in the list
 of categories.
 
-Image of categories in reorder mode
+.. image:: images/reorder-categories.png
+  :width: 300
+  :align: center
 
 Tap and long-hold a category. (Long hold = ~2-3 seconds) The category can now be
 dragged to a new place in the list. Release the category in its new position.
@@ -51,7 +53,9 @@ Once the categories are in your preferred order, scroll to the bottom of the
 page and tap on the button labeled 'Done Re-Ordering Categories'. You will see
 the icons change in the list of categories.
 
-Image of categories NOT in reorder mode
+.. image:: images/non-reorder-categories.png
+  :width: 300
+  :align: center
 
 ******************
 Add a new Category
@@ -59,8 +63,6 @@ Add a new Category
 
 To add a new category to your price list, tap on the '+' icon at the top of the
 page.
-
-Image of + icon
 
 Type in the name of your new category, and tap on the button labeled
 'Save Category'.
@@ -87,7 +89,9 @@ To re-order your repairs, scroll to the bottom of the page and tap on the
 button labeled 'Re-Order Repairs'. You will see the icons change in the list
 of repairs.
 
-Image of repairs in reorder mode
+.. image:: images/reorder-repairs.png
+  :width: 300
+  :align: center
 
 Tap and long-hold a repair. (Long hold = ~2-3 seconds) The repair can now be
 dragged to a new place in the list. Release the repair in its new position.
@@ -97,7 +101,9 @@ Once the repairs are in your preferred order, scroll to the bottom of the
 page and tap on the button labeled 'Done Re-Ordering Repairs'. You will see
 the icons change in the list.
 
-Image of repairs NOT in reorder mode
+.. image:: images/non-reorder-repairs.png
+  :width: 300
+  :align: center
 
 Add a new Repair to this Category
 ---------------------------------
@@ -105,7 +111,9 @@ Add a new Repair to this Category
 To add a new repair to this category, tap on the '+' icon at the top of the
 page.
 
-Image of + icon
+.. image:: images/add-repair.png
+  :width: 300
+  :align: center
 
 Enter the following information:
 
@@ -130,6 +138,10 @@ Edit a Repair
 To edit a repair, tap on its name in the list.  You will be taken to the same
 page as when you are creating a repair, but this time the information will be
 filled in for the repair you are editing.
+
+.. image:: images/edit-existing-repair.png
+  :width: 300
+  :align: center
 
 Change the information as wished, and tap on the button labeled
 'Save Repair Type'. The repair type will be saved, and you will be returned to
