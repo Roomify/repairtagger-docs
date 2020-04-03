@@ -37,11 +37,19 @@ done. If you tap it by mistake, simply tap again, it will be unchecked. When all
 of the repairs on the ticket are marked as complete, the notifications options
 will appear. See: :ref:`notifications` for more details.
 
+.. image:: images/viewticket-repairs.png
+  :width: 300
+  :align: center
+
 ************
 Ticket Notes
 ************
 
 If the ticket has notes on it, they will be shown here.
+
+.. image:: images/viewticket-notes.png
+  :width: 300
+  :align: center
 
 *************
 Ticket Photos
@@ -50,7 +58,9 @@ Ticket Photos
 If the ticket has photos, they will be shown here. You can add more photos
 without editing the ticket.  Just tap on the 'add image' icon.
 
-IMAGE of image icon on ticket view page
+.. image:: images/viewticket-photos.png
+  :width: 300
+  :align: center
 
 Your device camera will open. Click the shutter button to take a picture. If
 you are happy with the image, click on 'Use Photo', otherwise click on 'Retake'
