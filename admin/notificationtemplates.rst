@@ -44,7 +44,7 @@ template, at the end of the existing text.
 Templates
 ************
 
-There are four notification templates that are used:
+There are four notification templates that are used in the Repairtagger app:
 
 `Sms template`_
 
@@ -54,16 +54,30 @@ There are four notification templates that are used:
 
 `Email multiple notification template`_
 
+The Sms (text) templates have a character limit of 130 characters, but the Email
+templates can be as long as you like.
+
 Sms template
 ------------
 
+The Sms template is used when notifying a customer by text that they have a
+single item ready for pickup.
 
 Sms multiple template
 ---------------------
 
+The Sms template is used when notifying a customer by text that they have
+multiple items ready for pickup.
+
+
 Email notification template
 ---------------------------
 
+The Email notification template is used when notifying a customer by email that
+they have a single item ready for pickup.
 
 Email multiple notification template
 ------------------------------------
+
+The Email multiple notification template is used when notifying a customer by
+email that they have multiple items ready for pickup.
