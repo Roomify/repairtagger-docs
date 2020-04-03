@@ -1,7 +1,8 @@
 .. _help:
 
-Help Menu
-=========
+####
+Help
+####
 
 The help menu is where you can find contact information for support.
 
