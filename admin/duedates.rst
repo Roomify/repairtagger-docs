@@ -10,6 +10,10 @@ you can use this functionality to help keep track of them.
 
 To enable due dates, tap on the 'Enable Due Dates' switch at the top of the
 page. When this switch is on, you will see all of the settings available to you.
+After updating your due date settings, tap on the button labeled 'Save Changes'
+at the top of the page.  If you want to exit without saving your changes, tap on
+'Cancel' at the top of the page. You will be returned to the admin page, and
+your changes will be discarded.
 
 Enabling due dates makes the following changes in the app:
 
