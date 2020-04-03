@@ -25,6 +25,8 @@ name.
 You will be asked to confirm the customer change. Tap on 'Change Customer' to
 continue, or tap on 'Cancel' to, well, cancel...
 
+.. _editrepaironinvoice:
+
 ******************************
 Add/Change/Remove repair types
 ******************************

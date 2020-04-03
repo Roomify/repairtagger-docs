@@ -116,7 +116,7 @@ Enter the following information:
   **Maximum price if there is a range (Optional)**
     If this repair price is a range, enter the top end of the range here. The
     price range will be shown when updating a repair in a ticket invoice.  See:
-    `Add/Change/Remove repair types`_ for more details.
+    :ref:`editrepaironinvoice` for more details.
   **Category (Required)**
     The current category will be selected.  Leave this as it is.
 
