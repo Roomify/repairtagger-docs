@@ -45,7 +45,7 @@ Terminology
 
   **Customer**
 
-    A record in Repairtagger that stores a customers name and optionally a mobile
+    A record in Repairtagger that stores a customer's name and optionally a mobile
     phone number, landline number, email, notes, and photos.
 
     See: :ref:`customerlist` for more details.

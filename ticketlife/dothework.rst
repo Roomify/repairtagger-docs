@@ -49,7 +49,7 @@ and select 'Edit Ticket'.
   :width: 400
   :align: center
 
-Update the notes as wished, and tap on 'Save Notes'. (See: :ref:`editticket` for
+Update the notes as desired, and tap on 'Save Notes'. (See: :ref:`editticket` for
 more information about editing tickets.)
 
 .. image:: images/save-notes.png

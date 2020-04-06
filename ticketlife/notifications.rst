@@ -99,29 +99,29 @@ options, depending on the status of their other open tickets.
 Customer has multiple open tickets (Includes tickets with incomplete repairs)
 -----------------------------------------------------------------------------
 
-Not yet - Tap this button if the customer wishes to pick up all of their items
-at one time.
-Ready for Pickup - Tap this button if you have already notified the customer
-that the item is complete and ready for pickup.
-Email/Text/Call - Tap on one of the notification buttons if you wish to notify
-the customer that their repair is complete and ready for pickup, for the current
-ticket only. When you have finished sending a text or email, or making your
-phone call, the current ticket will be marked as 'Notified' and moved to the
-'Complete' section of the ticket list.
+* Not yet - Tap this button if the customer wishes to pick up all of their items
+  at one time.
+* Ready for Pickup - Tap this button if you have already notified the customer
+  that the item is complete and ready for pickup.
+* Email/Text/Call - Tap on one of the notification buttons if you wish to notify
+  the customer that their repair is complete and ready for pickup, for the current
+  ticket only. When you have finished sending a text or email, or making your
+  phone call, the current ticket will be marked as 'Notified' and moved to the
+  'Complete' section of the ticket list.
 
 See :ref:`ticketlist` for more information.
 
 Customer has multiple open tickets (All repair work is complete)
 ----------------------------------------------------------------
 
-Not yet - Tap this button if you are done with all of their tickets, but are not
-ready to notify them.
-Ready for Pickup - Tap this button if you have already notified the customer
-that their items are ready for pickup.
-Email/Text/Call - Tap on one of the notification buttons if you wish to notify
-the customer that all of their repairs are complete and ready for pickup.  When
-you have finished sending a text or email, or making your phone call, all of
-the open tickets will be marked as 'Notified' and moved to the 'Complete'
-section of the ticket list.
+* Not yet - Tap this button if you are done with all of their tickets, but are not
+  ready to notify them.
+* Ready for Pickup - Tap this button if you have already notified the customer
+  that their items are ready for pickup.
+* Email/Text/Call - Tap on one of the notification buttons if you wish to notify
+  the customer that all of their repairs are complete and ready for pickup.  When
+  you have finished sending a text or email, or making your phone call, all of
+  the open tickets will be marked as 'Notified' and moved to the 'Complete'
+  section of the ticket list.
 
 See :ref:`ticketlist` for more information.
