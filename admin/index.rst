@@ -45,5 +45,5 @@ The account page is where you can change your password or logout of the app.
 Manage subscription
 *******************
 
-Manage your app store or Google play store subscription.  This link will not
+Manage your iOS app store or Google play store subscription.  This link will not
 be shown if you have subscribed directly with Repairtagger. :doc:`subscription`

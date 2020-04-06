@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Repairtagger Docs'
-copyright = u'2018-2010 Roomify, LLC'
+copyright = u'2018-2020 Roomify, LLC'
 author = u'about.repairtagger.com'
 
 # The version info for the project you're documenting, acts as replacement for

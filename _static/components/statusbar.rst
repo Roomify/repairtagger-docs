@@ -37,9 +37,10 @@ Rack #
   :width: 400
   :align: center
 
-The rack number is generated from the last digit of the tag, and will be a
-number from 0-9. Tapping on the rack icon will show the full tag number in the
-expanded section.
+The rack number shown is the last digit of the tag, and will be a
+number from 0-9. For example, if the tag number is 4783, the rack
+number will be 3. Tapping on the rack icon will show the full tag
+number in the expanded section.
 
 Actions
 -------
