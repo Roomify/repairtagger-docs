@@ -125,8 +125,14 @@ Reusable tags - QR Codes
 Repairtagger was originally built to use Repairtagger provided tags, with QR
 codes. In order to make the app as affordable and as simple to get started with
 as possible, tags are no longer provided through Repairtagger.  If you are
-interested in using QR codes with the app, see :ref:`qrtagdesign` for
-instructions on how to design and order your own branded QR tags.
+interested in using QR codes with the app, you will soon be able to order
+pre-designed tags.  With these type of tags, volume drastically affects the
+price, so this is a great option for shops that do a very high volume (1000+
+repairs a month). That being said, the scanning experience is extremely smooth
+and reliable with QR codes, so we highly recommend using this type of tag if
+possible.  If you are interested in ordering/designing your own, get in touch
+with us - we will give you all the information you need to create Repairtagger
+compatible tags.
 
 .. note:: A Bluetooth scanner capable of scanning QR codes can be used with
  Repairtagger.  See the `Reusable tags - Barcodes`_ section for more details.

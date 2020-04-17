@@ -105,7 +105,6 @@ See: :ref:`ticketlist` for more details.
    :caption: Tag Options
 
    Physical Tag Options<tagoptions/index.rst>
-   QR Tag Design <tagoptions/qrtagdesign.rst>
 
 .. toctree::
    :maxdepth: 2
@@ -153,8 +152,8 @@ See: :ref:`ticketlist` for more details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Repair Status Page
+   :caption: Customer Repair Status Page
 
-   Repair Status Page <repairstatuspage/index.rst>
+   Customer Repair Status Page <repairstatuspage/index.rst>
 
 .. DONE
