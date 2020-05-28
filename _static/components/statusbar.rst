@@ -61,6 +61,11 @@ The actions menu contains any relevant links for the ticket. Possible links are:
     customer has not yet been notified. Tapping on the 'Send Notification'
     link will bring up the notification options for the ticket.
 
+  Re-Notify:
+    This link will be shown when viewing tickets that have already been Notified,
+    but are not picked up yet. Tapping on the 'Re-Notify' link will bring up the
+    notification options for the ticket.
+
   Picked Up:
     This link will be shown on tickets that are in the 'Notified' status. Tap on
     this link to bring up the Picked Up window for the ticket.

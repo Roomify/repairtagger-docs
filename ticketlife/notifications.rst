@@ -16,6 +16,8 @@ notify the customer that their repair is complete.
 
 `Customer with Multiple Tickets`_
 
+`Re-Notify a Customer`_
+
 ****
 Text
 ****
@@ -125,3 +127,18 @@ Customer has multiple open tickets (All repair work is complete)
   section of the ticket list.
 
 See :ref:`ticketlist` for more information.
+
+********************
+Re-Notify a Customer
+********************
+
+If you have an item that's been waiting to be picked up for a while, sometimes
+you want to remind the customer!  To do this, just open the actions menu while
+viewing the ticket, and tap on 'Re-notify'
+
+.. image:: images/re-notify.jpeg
+  :width: 400
+  :align: center
+
+You will be shown the notification options again, they will work exactly the
+same as when you are first notifying a customer.
