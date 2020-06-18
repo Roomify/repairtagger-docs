@@ -121,6 +121,7 @@ See: :ref:`ticketlist` for more details.
    View Ticket<tickets/viewticket.rst>
    Edit Ticket<tickets/editticket.rst>
    Delete Ticket<tickets/deleteticket.rst>
+   Archived Tickets<tickets/archivedticket.rst>
 
 .. toctree::
    :maxdepth: 2
