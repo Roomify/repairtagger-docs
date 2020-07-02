@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Admin Page &mdash; Repairtagger Docs  documentation - Repairtagger</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Repairtagger Docs  documentation" href="../index.html"/>
+        <link rel="next" title="Managing your Price List" href="pricelist.html"/>
+        <link rel="prev" title="Edit Customer" href="../customers/editcustomer.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://about.repairtagger.com"> back to repairtagger.com </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Repairtagger Docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/index.html">The life and times of a ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/scantag.html">Step 1. Scan a tag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/intake.html">Step 2: Fill in ticket information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/dothework.html">Step 3: Do the work</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/notifications.html">Step 4: Notify the customer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/pickup.html">Step 5: Pickup and Archival</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tag Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tagoptions/index.html">Physical Tag Options</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reports</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reports/index.html">Reports</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tickets</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/ticketlist.html">Ticket List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/viewticket.html">View Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/editticket.html">Edit Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/deleteticket.html">Delete Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/archivedticket.html">Archived Tickets</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scan</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../scan/index.html">Scan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Customers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../customers/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/customerlist.html">Customer List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/customerstatus.html">Customer Status Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/editcustomer.html">Edit Customer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Admin</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#edit-price-list">Edit Price list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#manage-due-dates">Manage Due Dates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#manage-customer-notifications">Manage Customer Notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#help">Help</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#manage-business-information">Manage Business Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#account">Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#manage-subscription">Manage subscription</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pricelist.html">Managing your Price List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duedates.html">Due Dates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notificationtemplates.html">Notifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bizinformation.html">Business Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="account.html">Account</a></li>
+<li class="toctree-l1"><a class="reference internal" href="subscription.html">Subscription</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Customer Repair Status Page</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../repairstatuspage/index.html">Customer Repair Status Page</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Repairtagger Docs</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Admin Page</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="admin-page">
+<span id="admin"></span><h1>Admin Page<a class="headerlink" href="#admin-page" title="Permalink to this headline">¶</a></h1>
+<p>The shop admin page is where you can manage all of your settings and
+configuration for the Repairtagger app.</p>
+<div class="section" id="edit-price-list">
+<h2>Edit Price list<a class="headerlink" href="#edit-price-list" title="Permalink to this headline">¶</a></h2>
+<p>Your price list is all of the repairs that you offer, grouped by
+category. <a class="reference internal" href="pricelist.html"><span class="doc">Managing your Price List</span></a></p>
+</div>
+<div class="section" id="manage-due-dates">
+<h2>Manage Due Dates<a class="headerlink" href="#manage-due-dates" title="Permalink to this headline">¶</a></h2>
+<p>Due dates can be turned on or left off.  They allow you to set a due date for a
+repair, and change the ticket list to be sorted by due date. <a class="reference internal" href="duedates.html"><span class="doc">Due Dates</span></a></p>
+</div>
+<div class="section" id="manage-customer-notifications">
+<h2>Manage Customer Notifications<a class="headerlink" href="#manage-customer-notifications" title="Permalink to this headline">¶</a></h2>
+<p>This is where you can edit your notification templates. <a class="reference internal" href="notificationtemplates.html"><span class="doc">Notification Templates</span></a></p>
+</div>
+<div class="section" id="help">
+<h2>Help<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h2>
+<p>A menu with support information. <a class="reference internal" href="help.html"><span class="doc">Help</span></a></p>
+</div>
+<div class="section" id="manage-business-information">
+<h2>Manage Business Information<a class="headerlink" href="#manage-business-information" title="Permalink to this headline">¶</a></h2>
+<p>This is where you can manage the information about your physical shop location,
+such as address, phone number, and shop name. <a class="reference internal" href="bizinformation.html"><span class="doc">Business Information</span></a></p>
+</div>
+<div class="section" id="account">
+<h2>Account<a class="headerlink" href="#account" title="Permalink to this headline">¶</a></h2>
+<p>The account page is where you can change your password or logout of the app.
+<a class="reference internal" href="account.html"><span class="doc">Account</span></a></p>
+</div>
+<div class="section" id="manage-subscription">
+<h2>Manage subscription<a class="headerlink" href="#manage-subscription" title="Permalink to this headline">¶</a></h2>
+<p>Manage your iOS app store or Google play store subscription.  This link will not
+be shown if you have subscribed directly with Repairtagger. <a class="reference internal" href="subscription.html"><span class="doc">Manage your Subscription</span></a></p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pricelist.html" class="btn btn-neutral float-right" title="Managing your Price List" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../customers/editcustomer.html" class="btn btn-neutral float-left" title="Edit Customer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018-2020 Roomify, LLC
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

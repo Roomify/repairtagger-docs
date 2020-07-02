@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Ticket List &mdash; Repairtagger Docs  documentation - Repairtagger</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Repairtagger Docs  documentation" href="../index.html"/>
+        <link rel="next" title="View Ticket" href="viewticket.html"/>
+        <link rel="prev" title="Tickets" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://about.repairtagger.com"> back to repairtagger.com </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Repairtagger Docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/index.html">The life and times of a ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/scantag.html">Step 1. Scan a tag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/intake.html">Step 2: Fill in ticket information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/dothework.html">Step 3: Do the work</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/notifications.html">Step 4: Notify the customer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/pickup.html">Step 5: Pickup and Archival</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tag Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tagoptions/index.html">Physical Tag Options</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reports</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reports/index.html">Reports</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tickets</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Ticket List</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ticket-list-categories">Ticket list categories</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#active">Active</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#complete">Complete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#archived">Archived</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ticket-list-order">Ticket list order</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#due-dates-disabled">Due Dates Disabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#due-dates-enabled">Due Dates Enabled</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ticket-status-bar">Ticket Status bar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#date-status">Date/Status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#customer">Customer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rack">Rack #</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#actions">Actions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="viewticket.html">View Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="editticket.html">Edit Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deleteticket.html">Delete Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="archivedticket.html">Archived Tickets</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scan</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../scan/index.html">Scan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Customers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../customers/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/customerlist.html">Customer List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/customerstatus.html">Customer Status Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/editcustomer.html">Edit Customer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Admin</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../admin/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/pricelist.html">Managing your Price List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/duedates.html">Due Dates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/notificationtemplates.html">Notifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/help.html">Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/bizinformation.html">Business Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/account.html">Account</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/subscription.html">Subscription</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Customer Repair Status Page</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../repairstatuspage/index.html">Customer Repair Status Page</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Repairtagger Docs</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Ticket List</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ticket-list">
+<span id="ticketlist"></span><h1>Ticket List<a class="headerlink" href="#ticket-list" title="Permalink to this headline">¶</a></h1>
+<p>Your ticket list is where you can see all of your tickets, grouped by the ticket
+status. There are three categories.</p>
+<div class="section" id="ticket-list-categories">
+<h2>Ticket list categories<a class="headerlink" href="#ticket-list-categories" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="active">
+<h3>Active<a class="headerlink" href="#active" title="Permalink to this headline">¶</a></h3>
+<p>The Active tab on the ticket list contains all tickets that are either:</p>
+<dl class="docutils">
+<dt>Received</dt>
+<dd>The item has been taken in, but has not been worked on yet.</dd>
+<dt>Due (if due dates are enabled for your shop, See: <a class="reference internal" href="../admin/duedates.html#duedates"><span class="std std-ref">Due Dates</span></a> for more</dt>
+<dd><dl class="first last docutils">
+<dt>information)</dt>
+<dd>The item has been taken in, but has not been worked on yet.</dd>
+</dl>
+</dd>
+<dt>In Progress</dt>
+<dd>A ticket with multiple repairs has some complete, but not all</dd>
+<dt>Not Notified</dt>
+<dd>All repairs for a ticket are completed, but the customer has not been notified
+yet.</dd>
+</dl>
+</div>
+<div class="section" id="complete">
+<h3>Complete<a class="headerlink" href="#complete" title="Permalink to this headline">¶</a></h3>
+<p>The Complete tab on the ticket list contains all tickets that are complete, and
+the customer has been notified.  All tickets in this tab will be in the
+‘Notified’ status, and are waiting to be picked up.</p>
+</div>
+<div class="section" id="archived">
+<h3>Archived<a class="headerlink" href="#archived" title="Permalink to this headline">¶</a></h3>
+<p>The Archived tab on the ticket list contains all tickets that have been
+completed and picked up by the customer. Tickets in the Archived tab will not
+have a tag number, and cannot be edited.</p>
+</div>
+</div>
+<div class="section" id="ticket-list-order">
+<span id="ticketlistorder"></span><h2>Ticket list order<a class="headerlink" href="#ticket-list-order" title="Permalink to this headline">¶</a></h2>
+<p>The ticket list is ordered in one of two ways.</p>
+<div class="section" id="due-dates-disabled">
+<h3>Due Dates Disabled<a class="headerlink" href="#due-dates-disabled" title="Permalink to this headline">¶</a></h3>
+<p>If due dates are not enabled for your shop (See: <a class="reference internal" href="../admin/duedates.html#duedates"><span class="std std-ref">Due Dates</span></a> for more
+information), the ticket list will be ordered by created date, oldest first.</p>
+</div>
+<div class="section" id="due-dates-enabled">
+<h3>Due Dates Enabled<a class="headerlink" href="#due-dates-enabled" title="Permalink to this headline">¶</a></h3>
+<p>If due dates are enabled for your shop, the ticket list will be ordered by due
+date, soonest due first.</p>
+<p>Each ticket in the list is shown as a status bar.</p>
+</div>
+</div>
+<div class="section" id="ticket-status-bar">
+<h2>Ticket Status bar<a class="headerlink" href="#ticket-status-bar" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="date-status">
+<h3>Date/Status<a class="headerlink" href="#date-status" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/status-calendar.png"><img alt="../_images/status-calendar.png" class="align-center" src="../_images/status-calendar.png" style="width: 400px;" /></a>
+<p>The Calendar icon shows the current status of the ticket, and the Month/Date
+that the ticket was put in that status. In this example, the Status is
+‘Notified’, and the date is Oct 9. This means that the customer was notified on
+Oct 9th.</p>
+<p>Tapping on the status icon will show you the full status description in
+a small window. Tap outside of the window to close it.</p>
+</div>
+<div class="section" id="customer">
+<h3>Customer<a class="headerlink" href="#customer" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/status-customer.png"><img alt="../_images/status-customer.png" class="align-center" src="../_images/status-customer.png" style="width: 400px;" /></a>
+<p>The customer icon shows the last name of the customer. Tapping on the customer
+icon will take you to the customer status page  for that customer.</p>
+<p>See <a class="reference internal" href="../customers/customerstatus.html#customerstatus"><span class="std std-ref">Customer Status Page</span></a> for more details.</p>
+</div>
+<div class="section" id="rack">
+<h3>Rack #<a class="headerlink" href="#rack" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/status-rack.png"><img alt="../_images/status-rack.png" class="align-center" src="../_images/status-rack.png" style="width: 400px;" /></a>
+<p>The rack number shown is the last digit of the tag, and will be a
+number from 0-9. For example, if the tag number is 4783, the rack
+number will be 3. Tapping on the rack icon will show the full tag
+number in the expanded section.</p>
+</div>
+<div class="section" id="actions">
+<h3>Actions<a class="headerlink" href="#actions" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/status-actions.png"><img alt="../_images/status-actions.png" class="align-center" src="../_images/status-actions.png" style="width: 400px;" /></a>
+<dl class="docutils">
+<dt>The actions menu contains any relevant links for the ticket. Possible links are:</dt>
+<dd><dl class="first last docutils">
+<dt>Edit Details:</dt>
+<dd>Tap on this link to edit the details of the ticket. Once a ticket is
+archived, this link will no longer be available, as archived tickets cannot
+be edited.</dd>
+<dt>Send Notification:</dt>
+<dd>This link will be shown on tickets that are in the ‘Not Notified’ status.
+This means that all repairs for the ticket have been completed, but the
+customer has not yet been notified. Tapping on the ‘Send Notification’
+link will bring up the notification options for the ticket.</dd>
+<dt>Re-Notify:</dt>
+<dd>This link will be shown when viewing tickets that have already been Notified,
+but are not picked up yet. Tapping on the ‘Re-Notify’ link will bring up the
+notification options for the ticket.</dd>
+<dt>Picked Up:</dt>
+<dd>This link will be shown on tickets that are in the ‘Notified’ status. Tap on
+this link to bring up the Picked Up window for the ticket.</dd>
+</dl>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="viewticket.html" class="btn btn-neutral float-right" title="View Ticket" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Tickets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018-2020 Roomify, LLC
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

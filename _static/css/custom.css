@@ -1,0 +1,27 @@
+// Fonts
+.poppins {
+  font-family: Poppins, Poppins-Regular, Poppins-Bold, Poppins-Light;
+}
+.wy-body-for-nav {
+	font-family: Poppins;
+}
+.wy-side-nav-search,
+.wy-nav-top {
+  background-color: #E67837 !important;
+}
+.wy-nav-side {
+	background-color: #303030;
+}
+.caption-text {
+  color: #E67837;
+}
+h1 {
+	color: #E67837;
+}
+h2 {
+
+}
+
+h3 {
+  color: #D72434;
+}

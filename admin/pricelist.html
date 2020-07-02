@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Managing your Price List &mdash; Repairtagger Docs  documentation - Repairtagger</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Repairtagger Docs  documentation" href="../index.html"/>
+        <link rel="next" title="Due Dates" href="duedates.html"/>
+        <link rel="prev" title="Admin Page" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://about.repairtagger.com"> back to repairtagger.com </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Repairtagger Docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/index.html">The life and times of a ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/scantag.html">Step 1. Scan a tag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/intake.html">Step 2: Fill in ticket information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/dothework.html">Step 3: Do the work</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/notifications.html">Step 4: Notify the customer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticketlife/pickup.html">Step 5: Pickup and Archival</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tag Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tagoptions/index.html">Physical Tag Options</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reports</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reports/index.html">Reports</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tickets</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/ticketlist.html">Ticket List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/viewticket.html">View Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/editticket.html">Edit Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/deleteticket.html">Delete Ticket</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tickets/archivedticket.html">Archived Tickets</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scan</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../scan/index.html">Scan</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Customers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../customers/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/customerlist.html">Customer List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/customerstatus.html">Customer Status Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customers/editcustomer.html">Edit Customer</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Admin</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Managing your Price List</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#re-order-categories">Re-order Categories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#add-a-new-category">Add a new Category</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#view-a-category">View a Category</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#re-order-repairs">Re-order Repairs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-a-new-repair-to-this-category">Add a new Repair to this Category</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-a-repair">Edit a Repair</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="duedates.html">Due Dates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notificationtemplates.html">Notifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bizinformation.html">Business Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="account.html">Account</a></li>
+<li class="toctree-l1"><a class="reference internal" href="subscription.html">Subscription</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Customer Repair Status Page</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../repairstatuspage/index.html">Customer Repair Status Page</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Repairtagger Docs</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Managing your Price List</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="managing-your-price-list">
+<span id="pricelist"></span><h1>Managing your Price List<a class="headerlink" href="#managing-your-price-list" title="Permalink to this headline">¶</a></h1>
+<p>Your price list is organized by categories.  The structure of a price list is:</p>
+<dl class="docutils">
+<dt>Category</dt>
+<dd><ul class="first last simple">
+<li>Repair</li>
+<li>Repair</li>
+<li>Repair</li>
+<li>Repair</li>
+</ul>
+</dd>
+<dt>Category 2</dt>
+<dd><ul class="first last simple">
+<li>Repair</li>
+<li>Repair</li>
+<li>Repair</li>
+<li>Repair</li>
+</ul>
+</dd>
+<dt>Category 3</dt>
+<dd><ul class="first last simple">
+<li>Repair</li>
+<li>Repair</li>
+<li>Repair</li>
+<li>Repair</li>
+</ul>
+</dd>
+</dl>
+<p>Etc…</p>
+<p>When you tap on ‘Edit price list’, you will see a list of your categories. You
+can do the following:</p>
+<p><a class="reference internal" href="#re-order-categories">Re-order Categories</a></p>
+<p><a class="reference internal" href="#add-a-new-category">Add a new Category</a></p>
+<p><a class="reference internal" href="#view-a-category">View a Category</a></p>
+<div class="section" id="re-order-categories">
+<h2>Re-order Categories<a class="headerlink" href="#re-order-categories" title="Permalink to this headline">¶</a></h2>
+<p>To re-order your categories, scroll to the bottom of the page and tap on the
+button labeled ‘Re-Order Categories’. You will see the icons change in the list
+of categories.</p>
+<a class="reference internal image-reference" href="../_images/reorder-categories.png"><img alt="../_images/reorder-categories.png" class="align-center" src="../_images/reorder-categories.png" style="width: 300px;" /></a>
+<p>Tap and long-hold a category. (Long hold = ~2-3 seconds) The category can now be
+dragged to a new place in the list. Release the category in its new position.
+Repeat the process for all other categories you wish to move.</p>
+<p>Once the categories are in your preferred order, scroll to the bottom of the
+page and tap on the button labeled ‘Done Re-Ordering Categories’. You will see
+the icons change in the list of categories.</p>
+<a class="reference internal image-reference" href="../_images/non-reorder-categories.png"><img alt="../_images/non-reorder-categories.png" class="align-center" src="../_images/non-reorder-categories.png" style="width: 300px;" /></a>
+</div>
+<div class="section" id="add-a-new-category">
+<h2>Add a new Category<a class="headerlink" href="#add-a-new-category" title="Permalink to this headline">¶</a></h2>
+<p>To add a new category to your price list, tap on the ‘+’ icon at the top of the
+page.</p>
+<p>Type in the name of your new category, and tap on the button labeled
+‘Save Category’.</p>
+</div>
+<div class="section" id="view-a-category">
+<h2>View a Category<a class="headerlink" href="#view-a-category" title="Permalink to this headline">¶</a></h2>
+<p>When you tap on a category name, you will be taken to that category’s page. You
+will see the category name at the top of the page, a link to edit the category
+name, and a list of the repairs in that category. You
+can do the following:</p>
+<p><a class="reference internal" href="#re-order-repairs">Re-order Repairs</a></p>
+<p><a class="reference internal" href="#add-a-new-repair-to-this-category">Add a new Repair to this Category</a></p>
+<p><a class="reference internal" href="#edit-a-repair">Edit a Repair</a></p>
+<div class="section" id="re-order-repairs">
+<h3>Re-order Repairs<a class="headerlink" href="#re-order-repairs" title="Permalink to this headline">¶</a></h3>
+<p>To re-order your repairs, scroll to the bottom of the page and tap on the
+button labeled ‘Re-Order Repairs’. You will see the icons change in the list
+of repairs.</p>
+<a class="reference internal image-reference" href="../_images/reorder-repairs.png"><img alt="../_images/reorder-repairs.png" class="align-center" src="../_images/reorder-repairs.png" style="width: 300px;" /></a>
+<p>Tap and long-hold a repair. (Long hold = ~2-3 seconds) The repair can now be
+dragged to a new place in the list. Release the repair in its new position.
+Repeat the process for all other repairs you wish to move.</p>
+<p>Once the repairs are in your preferred order, scroll to the bottom of the
+page and tap on the button labeled ‘Done Re-Ordering Repairs’. You will see
+the icons change in the list.</p>
+<a class="reference internal image-reference" href="../_images/non-reorder-repairs.png"><img alt="../_images/non-reorder-repairs.png" class="align-center" src="../_images/non-reorder-repairs.png" style="width: 300px;" /></a>
+</div>
+<div class="section" id="add-a-new-repair-to-this-category">
+<h3>Add a new Repair to this Category<a class="headerlink" href="#add-a-new-repair-to-this-category" title="Permalink to this headline">¶</a></h3>
+<p>To add a new repair to this category, tap on the ‘+’ icon at the top of the
+page.</p>
+<a class="reference internal image-reference" href="../_images/add-repair.png"><img alt="../_images/add-repair.png" class="align-center" src="../_images/add-repair.png" style="width: 300px;" /></a>
+<p>Enter the following information:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt><strong>Repair Type Name (Required)</strong></dt>
+<dd>The name of this repair.</dd>
+<dt><strong>Repair Type Price (Required)</strong></dt>
+<dd>The base price for this repair.</dd>
+<dt><strong>Maximum price if there is a range (Optional)</strong></dt>
+<dd>If this repair price is a range, enter the top end of the range here. The
+price range will be shown when updating a repair in a ticket invoice.  See:
+<a class="reference internal" href="../tickets/editticket.html#editrepaironinvoice"><span class="std std-ref">Add/Change/Remove repair types</span></a> for more details.</dd>
+<dt><strong>Category (Required)</strong></dt>
+<dd>The current category will be selected.  Leave this as it is.</dd>
+</dl>
+</div></blockquote>
+<p>When you have finished entering the repair information, tap on the button
+labeled ‘Save Repair Type’. The repair type will be saved and added to the
+category, and you will be returned to the category page.</p>
+</div>
+<div class="section" id="edit-a-repair">
+<h3>Edit a Repair<a class="headerlink" href="#edit-a-repair" title="Permalink to this headline">¶</a></h3>
+<p>To edit a repair, tap on its name in the list.  You will be taken to the same
+page as when you are creating a repair, but this time the information will be
+filled in for the repair you are editing.</p>
+<a class="reference internal image-reference" href="../_images/edit-existing-repair.png"><img alt="../_images/edit-existing-repair.png" class="align-center" src="../_images/edit-existing-repair.png" style="width: 300px;" /></a>
+<p>Change the information as wished, and tap on the button labeled
+‘Save Repair Type’. The repair type will be saved, and you will be returned to
+the category page.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="duedates.html" class="btn btn-neutral float-right" title="Due Dates" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Admin Page" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018-2020 Roomify, LLC
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
