@@ -33,4 +33,5 @@ To deploy:
 ```mv /tmp/_build/* .```
 * add the github domain name file:
 ```echo 'docs.repairtagger.com' > ./CNAME```
-
+* commit and push:
+```git add . && git commit -m 'Updated docs' && git push```
